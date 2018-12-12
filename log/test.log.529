@@ -1,0 +1,549 @@
+[2018/12/04 14:45:35 CST] [INFO] ===============================================================
+[2018/12/04 14:45:35 CST] [INFO] -------Ontology Test Start Version:v1.5.2
+[2018/12/04 14:45:35 CST] [INFO] ===============================================================
+[2018/12/04 14:45:35 CST] [INFO] 
+[2018/12/04 14:45:36 CST] [WARN] Default Account balance = 0 
+[2018/12/04 14:45:36 CST] [INFO] ===============================================================
+[2018/12/04 14:45:36 CST] [INFO] 1. Start TestCase:TestGetCurrentBlockHeight
+[2018/12/04 14:45:36 CST] [INFO] ---------------------------------------------------------------
+[2018/12/04 14:45:36 CST] [INFO] CurrentBlockHeight:%!(EXTRA uint32=1175)
+[2018/12/04 14:45:36 CST] [INFO] TestCase:TestGetCurrentBlockHeight success.
+[2018/12/04 14:45:36 CST] [INFO] ---------------------------------------------------------------
+[2018/12/04 14:45:36 CST] [INFO] 
+[2018/12/04 14:45:36 CST] [INFO] ===============================================================
+[2018/12/04 14:45:36 CST] [INFO] 2. Start TestCase:TestGetCurrentBlockHash
+[2018/12/04 14:45:36 CST] [INFO] ---------------------------------------------------------------
+[2018/12/04 14:45:36 CST] [INFO] TestGetCurrentBlockHash blkhash:9abc6bd4461d6899a69f11fa88cbee28e489bb588d834fc21686df84695d799b
+[2018/12/04 14:45:36 CST] [INFO] TestCase:TestGetCurrentBlockHash success.
+[2018/12/04 14:45:36 CST] [INFO] ---------------------------------------------------------------
+[2018/12/04 14:45:36 CST] [INFO] 
+[2018/12/04 14:45:36 CST] [INFO] ===============================================================
+[2018/12/04 14:45:36 CST] [INFO] 3. Start TestCase:TestGetBlockByHeight
+[2018/12/04 14:45:36 CST] [INFO] ---------------------------------------------------------------
+[2018/12/04 14:45:36 CST] [INFO] TestCase:TestGetBlockByHeight success.
+[2018/12/04 14:45:36 CST] [INFO] ---------------------------------------------------------------
+[2018/12/04 14:45:36 CST] [INFO] 
+[2018/12/04 14:45:36 CST] [INFO] ===============================================================
+[2018/12/04 14:45:36 CST] [INFO] 4. Start TestCase:TestGetBlockByHash
+[2018/12/04 14:45:36 CST] [INFO] ---------------------------------------------------------------
+[2018/12/04 14:45:36 CST] [INFO] TestCase:TestGetBlockByHash success.
+[2018/12/04 14:45:36 CST] [INFO] ---------------------------------------------------------------
+[2018/12/04 14:45:36 CST] [INFO] 
+[2018/12/04 14:45:36 CST] [INFO] ===============================================================
+[2018/12/04 14:45:36 CST] [INFO] 5. Start TestCase:TestGetRawTransaction
+[2018/12/04 14:45:36 CST] [INFO] ---------------------------------------------------------------
+[2018/12/04 14:45:36 CST] [INFO] TestCase:TestGetRawTransaction success.
+[2018/12/04 14:45:36 CST] [INFO] ---------------------------------------------------------------
+[2018/12/04 14:45:36 CST] [INFO] 
+[2018/12/04 14:45:36 CST] [INFO] ===============================================================
+[2018/12/04 14:45:36 CST] [INFO] 6. Start TestCase:TestGetBlockHeightByTxHash
+[2018/12/04 14:45:36 CST] [INFO] ---------------------------------------------------------------
+[2018/12/04 14:45:36 CST] [INFO] blockHeight:%!(EXTRA uint32=0)
+[2018/12/04 14:45:36 CST] [INFO] TestCase:TestGetBlockHeightByTxHash success.
+[2018/12/04 14:45:36 CST] [INFO] ---------------------------------------------------------------
+[2018/12/04 14:45:36 CST] [INFO] 
+[2018/12/04 14:45:36 CST] [INFO] ===============================================================
+[2018/12/04 14:45:36 CST] [INFO] 7. Start TestCase:TestGetBlockHash
+[2018/12/04 14:45:36 CST] [INFO] ---------------------------------------------------------------
+[2018/12/04 14:45:36 CST] [INFO] blkhash:9abc6bd4461d6899a69f11fa88cbee28e489bb588d834fc21686df84695d799b
+[2018/12/04 14:45:36 CST] [INFO] TestCase:TestGetBlockHash success.
+[2018/12/04 14:45:36 CST] [INFO] ---------------------------------------------------------------
+[2018/12/04 14:45:36 CST] [INFO] 
+[2018/12/04 14:45:36 CST] [INFO] ===============================================================
+[2018/12/04 14:45:36 CST] [INFO] 8. Start TestCase:TestGetSmartContract
+[2018/12/04 14:45:36 CST] [INFO] ---------------------------------------------------------------
+[2018/12/04 14:45:36 CST] [INFO] TestGetSmartContract:
+[2018/12/04 14:45:36 CST] [INFO] Code:0000000000000000000000000000000000000001
+[2018/12/04 14:45:36 CST] [INFO] Author:Ontology Team
+[2018/12/04 14:45:36 CST] [INFO] Version:1.0
+[2018/12/04 14:45:36 CST] [INFO] NeedStorage:true
+[2018/12/04 14:45:36 CST] [INFO] Email:contact@ont.io
+[2018/12/04 14:45:36 CST] [INFO] Description:Ontology Network ONT Token
+[2018/12/04 14:45:36 CST] [INFO] TestCase:TestGetSmartContract success.
+[2018/12/04 14:45:36 CST] [INFO] ---------------------------------------------------------------
+[2018/12/04 14:45:36 CST] [INFO] 
+[2018/12/04 14:45:36 CST] [INFO] ===============================================================
+[2018/12/04 14:45:36 CST] [INFO] 9. Start TestCase:TestGetSmartContractEvent
+[2018/12/04 14:45:36 CST] [INFO] ---------------------------------------------------------------
+[2018/12/04 14:45:36 CST] [INFO]  TxHash:65d3b2d3237743f21795e344563190ccbe50e9930520b8525142b075433fdd74
+[2018/12/04 14:45:36 CST] [INFO]  State:1
+[2018/12/04 14:45:36 CST] [INFO]  GasConsumed:0
+[2018/12/04 14:45:36 CST] [INFO] TestCase:TestGetSmartContractEvent success.
+[2018/12/04 14:45:36 CST] [INFO] ---------------------------------------------------------------
+[2018/12/04 14:45:36 CST] [INFO] 
+[2018/12/04 14:45:36 CST] [INFO] ===============================================================
+[2018/12/04 14:45:36 CST] [INFO] 10. Start TestCase:TestGetStorage
+[2018/12/04 14:45:36 CST] [INFO] ---------------------------------------------------------------
+[2018/12/04 14:45:36 CST] [INFO] TestGetStorage 1000000000
+
+[2018/12/04 14:45:36 CST] [INFO] TestCase:TestGetStorage success.
+[2018/12/04 14:45:36 CST] [INFO] ---------------------------------------------------------------
+[2018/12/04 14:45:36 CST] [INFO] 
+[2018/12/04 14:45:36 CST] [INFO] ===============================================================
+[2018/12/04 14:45:36 CST] [INFO] 11. Start TestCase:TestOperationAdd
+[2018/12/04 14:45:36 CST] [INFO] ---------------------------------------------------------------
+[2018/12/04 14:45:36 CST] [INFO] TestOperationAdd contact address:0860b720fa7a40312289ee94c6e0cadcc9251eed
+[2018/12/04 14:45:36 CST] [INFO] DeployContract TxHash:efddb3081170b7c5157e13b27cfb3ba8ce4cf569c0d80c5b852b978e72b8f9da
+[2018/12/04 14:45:42 CST] [INFO] TestCase:TestOperationAdd success.
+[2018/12/04 14:45:42 CST] [INFO] ---------------------------------------------------------------
+[2018/12/04 14:45:42 CST] [INFO] 
+[2018/12/04 14:45:42 CST] [INFO] ===============================================================
+[2018/12/04 14:45:42 CST] [INFO] 12. Start TestCase:TestOperationSub
+[2018/12/04 14:45:42 CST] [INFO] ---------------------------------------------------------------
+[2018/12/04 14:45:48 CST] [INFO] TestCase:TestOperationSub success.
+[2018/12/04 14:45:48 CST] [INFO] ---------------------------------------------------------------
+[2018/12/04 14:45:48 CST] [INFO] 
+[2018/12/04 14:45:48 CST] [INFO] ===============================================================
+[2018/12/04 14:45:48 CST] [INFO] 13. Start TestCase:TestOperationMulti
+[2018/12/04 14:45:48 CST] [INFO] ---------------------------------------------------------------
+[2018/12/04 14:45:55 CST] [INFO] TestCase:TestOperationMulti success.
+[2018/12/04 14:45:55 CST] [INFO] ---------------------------------------------------------------
+[2018/12/04 14:45:55 CST] [INFO] 
+[2018/12/04 14:45:55 CST] [INFO] ===============================================================
+[2018/12/04 14:45:55 CST] [INFO] 14. Start TestCase:TestOperationDivide
+[2018/12/04 14:45:55 CST] [INFO] ---------------------------------------------------------------
+[2018/12/04 14:46:00 CST] [INFO] TestCase:TestOperationDivide success.
+[2018/12/04 14:46:00 CST] [INFO] ---------------------------------------------------------------
+[2018/12/04 14:46:00 CST] [INFO] 
+[2018/12/04 14:46:00 CST] [INFO] ===============================================================
+[2018/12/04 14:46:00 CST] [INFO] 15. Start TestCase:TestOperationSelfAdd
+[2018/12/04 14:46:00 CST] [INFO] ---------------------------------------------------------------
+[2018/12/04 14:46:06 CST] [INFO] TestCase:TestOperationSelfAdd success.
+[2018/12/04 14:46:06 CST] [INFO] ---------------------------------------------------------------
+[2018/12/04 14:46:06 CST] [INFO] 
+[2018/12/04 14:46:06 CST] [INFO] ===============================================================
+[2018/12/04 14:46:06 CST] [INFO] 16. Start TestCase:TestOperationSelfSub
+[2018/12/04 14:46:06 CST] [INFO] ---------------------------------------------------------------
+[2018/12/04 14:46:13 CST] [INFO] TestCase:TestOperationSelfSub success.
+[2018/12/04 14:46:13 CST] [INFO] ---------------------------------------------------------------
+[2018/12/04 14:46:13 CST] [INFO] 
+[2018/12/04 14:46:13 CST] [INFO] ===============================================================
+[2018/12/04 14:46:13 CST] [INFO] 17. Start TestCase:TestOperationLarger
+[2018/12/04 14:46:13 CST] [INFO] ---------------------------------------------------------------
+[2018/12/04 14:46:18 CST] [INFO] TestCase:TestOperationLarger success.
+[2018/12/04 14:46:18 CST] [INFO] ---------------------------------------------------------------
+[2018/12/04 14:46:18 CST] [INFO] 
+[2018/12/04 14:46:18 CST] [INFO] ===============================================================
+[2018/12/04 14:46:18 CST] [INFO] 18. Start TestCase:TestOperationLargerEqual
+[2018/12/04 14:46:18 CST] [INFO] ---------------------------------------------------------------
+[2018/12/04 14:46:25 CST] [INFO] TestCase:TestOperationLargerEqual success.
+[2018/12/04 14:46:25 CST] [INFO] ---------------------------------------------------------------
+[2018/12/04 14:46:25 CST] [INFO] 
+[2018/12/04 14:46:25 CST] [INFO] ===============================================================
+[2018/12/04 14:46:25 CST] [INFO] 19. Start TestCase:TestOperationSmaller
+[2018/12/04 14:46:25 CST] [INFO] ---------------------------------------------------------------
+[2018/12/04 14:46:31 CST] [INFO] TestCase:TestOperationSmaller success.
+[2018/12/04 14:46:31 CST] [INFO] ---------------------------------------------------------------
+[2018/12/04 14:46:31 CST] [INFO] 
+[2018/12/04 14:46:31 CST] [INFO] ===============================================================
+[2018/12/04 14:46:31 CST] [INFO] 20. Start TestCase:TestOperationSmallerEqual
+[2018/12/04 14:46:31 CST] [INFO] ---------------------------------------------------------------
+[2018/12/04 14:46:36 CST] [INFO] TestCase:TestOperationSmallerEqual success.
+[2018/12/04 14:46:36 CST] [INFO] ---------------------------------------------------------------
+[2018/12/04 14:46:36 CST] [INFO] 
+[2018/12/04 14:46:36 CST] [INFO] ===============================================================
+[2018/12/04 14:46:36 CST] [INFO] 21. Start TestCase:TestOperationEqual
+[2018/12/04 14:46:36 CST] [INFO] ---------------------------------------------------------------
+[2018/12/04 14:46:43 CST] [INFO] TestCase:TestOperationEqual success.
+[2018/12/04 14:46:43 CST] [INFO] ---------------------------------------------------------------
+[2018/12/04 14:46:43 CST] [INFO] 
+[2018/12/04 14:46:43 CST] [INFO] ===============================================================
+[2018/12/04 14:46:43 CST] [INFO] 22. Start TestCase:TestOperationNotEqual
+[2018/12/04 14:46:43 CST] [INFO] ---------------------------------------------------------------
+[2018/12/04 14:46:49 CST] [INFO] TestCase:TestOperationNotEqual success.
+[2018/12/04 14:46:49 CST] [INFO] ---------------------------------------------------------------
+[2018/12/04 14:46:49 CST] [INFO] 
+[2018/12/04 14:46:49 CST] [INFO] ===============================================================
+[2018/12/04 14:46:49 CST] [INFO] 23. Start TestCase:TestOperationNegative
+[2018/12/04 14:46:49 CST] [INFO] ---------------------------------------------------------------
+[2018/12/04 14:46:54 CST] [INFO] TestCase:TestOperationNegative success.
+[2018/12/04 14:46:54 CST] [INFO] ---------------------------------------------------------------
+[2018/12/04 14:46:54 CST] [INFO] 
+[2018/12/04 14:46:54 CST] [INFO] ===============================================================
+[2018/12/04 14:46:54 CST] [INFO] 24. Start TestCase:TestOperationOr
+[2018/12/04 14:46:54 CST] [INFO] ---------------------------------------------------------------
+[2018/12/04 14:47:01 CST] [INFO] TestCase:TestOperationOr success.
+[2018/12/04 14:47:01 CST] [INFO] ---------------------------------------------------------------
+[2018/12/04 14:47:01 CST] [INFO] 
+[2018/12/04 14:47:01 CST] [INFO] ===============================================================
+[2018/12/04 14:47:01 CST] [INFO] 25. Start TestCase:TestOperationAnd
+[2018/12/04 14:47:01 CST] [INFO] ---------------------------------------------------------------
+[2018/12/04 14:47:06 CST] [INFO] TestCase:TestOperationAnd success.
+[2018/12/04 14:47:06 CST] [INFO] ---------------------------------------------------------------
+[2018/12/04 14:47:06 CST] [INFO] 
+[2018/12/04 14:47:06 CST] [INFO] ===============================================================
+[2018/12/04 14:47:06 CST] [INFO] 26. Start TestCase:TestOperationLeftShift
+[2018/12/04 14:47:06 CST] [INFO] ---------------------------------------------------------------
+[2018/12/04 14:47:12 CST] [INFO] TestCase:TestOperationLeftShift success.
+[2018/12/04 14:47:12 CST] [INFO] ---------------------------------------------------------------
+[2018/12/04 14:47:12 CST] [INFO] 
+[2018/12/04 14:47:12 CST] [INFO] ===============================================================
+[2018/12/04 14:47:12 CST] [INFO] 27. Start TestCase:TestOperationRightShift
+[2018/12/04 14:47:12 CST] [INFO] ---------------------------------------------------------------
+[2018/12/04 14:47:25 CST] [INFO] TestCase:TestOperationRightShift success.
+[2018/12/04 14:47:25 CST] [INFO] ---------------------------------------------------------------
+[2018/12/04 14:47:25 CST] [INFO] 
+[2018/12/04 14:47:25 CST] [INFO] ===============================================================
+[2018/12/04 14:47:25 CST] [INFO] 28. Start TestCase:TestBoolean
+[2018/12/04 14:47:25 CST] [INFO] ---------------------------------------------------------------
+[2018/12/04 14:47:30 CST] [INFO] TestCase:TestBoolean success.
+[2018/12/04 14:47:30 CST] [INFO] ---------------------------------------------------------------
+[2018/12/04 14:47:30 CST] [INFO] 
+[2018/12/04 14:47:30 CST] [INFO] ===============================================================
+[2018/12/04 14:47:30 CST] [INFO] 29. Start TestCase:TestInteger
+[2018/12/04 14:47:30 CST] [INFO] ---------------------------------------------------------------
+[2018/12/04 14:47:36 CST] [INFO] TestCase:TestInteger success.
+[2018/12/04 14:47:36 CST] [INFO] ---------------------------------------------------------------
+[2018/12/04 14:47:36 CST] [INFO] 
+[2018/12/04 14:47:36 CST] [INFO] ===============================================================
+[2018/12/04 14:47:36 CST] [INFO] 30. Start TestCase:TestString
+[2018/12/04 14:47:36 CST] [INFO] ---------------------------------------------------------------
+[2018/12/04 14:47:43 CST] [INFO] TestCase:TestString success.
+[2018/12/04 14:47:43 CST] [INFO] ---------------------------------------------------------------
+[2018/12/04 14:47:43 CST] [INFO] 
+[2018/12/04 14:47:43 CST] [INFO] ===============================================================
+[2018/12/04 14:47:43 CST] [INFO] 31. Start TestCase:TestArray
+[2018/12/04 14:47:43 CST] [INFO] ---------------------------------------------------------------
+[2018/12/04 14:47:48 CST] [INFO] TestCase:TestArray success.
+[2018/12/04 14:47:48 CST] [INFO] ---------------------------------------------------------------
+[2018/12/04 14:47:48 CST] [INFO] 
+[2018/12/04 14:47:48 CST] [INFO] ===============================================================
+[2018/12/04 14:47:48 CST] [INFO] 32. Start TestCase:TestReturnType
+[2018/12/04 14:47:48 CST] [INFO] ---------------------------------------------------------------
+[2018/12/04 14:47:54 CST] [INFO] TestCase:TestReturnType success.
+[2018/12/04 14:47:54 CST] [INFO] ---------------------------------------------------------------
+[2018/12/04 14:47:54 CST] [INFO] 
+[2018/12/04 14:47:54 CST] [INFO] ===============================================================
+[2018/12/04 14:47:54 CST] [INFO] 33. Start TestCase:TestByteArray
+[2018/12/04 14:47:54 CST] [INFO] ---------------------------------------------------------------
+[2018/12/04 14:48:01 CST] [INFO] TestCase:TestByteArray success.
+[2018/12/04 14:48:01 CST] [INFO] ---------------------------------------------------------------
+[2018/12/04 14:48:01 CST] [INFO] 
+[2018/12/04 14:48:01 CST] [INFO] ===============================================================
+[2018/12/04 14:48:01 CST] [INFO] 34. Start TestCase:TestIfElse
+[2018/12/04 14:48:01 CST] [INFO] ---------------------------------------------------------------
+[2018/12/04 14:48:06 CST] [INFO] TestCase:TestIfElse success.
+[2018/12/04 14:48:06 CST] [INFO] ---------------------------------------------------------------
+[2018/12/04 14:48:06 CST] [INFO] 
+[2018/12/04 14:48:06 CST] [INFO] ===============================================================
+[2018/12/04 14:48:06 CST] [INFO] 35. Start TestCase:TestSwitch
+[2018/12/04 14:48:06 CST] [INFO] ---------------------------------------------------------------
+[2018/12/04 14:48:12 CST] [INFO] TestCase:TestSwitch success.
+[2018/12/04 14:48:12 CST] [INFO] ---------------------------------------------------------------
+[2018/12/04 14:48:12 CST] [INFO] 
+[2018/12/04 14:48:12 CST] [INFO] ===============================================================
+[2018/12/04 14:48:12 CST] [INFO] 36. Start TestCase:TestFor
+[2018/12/04 14:48:12 CST] [INFO] ---------------------------------------------------------------
+[2018/12/04 14:48:19 CST] [INFO] TestCase:TestFor success.
+[2018/12/04 14:48:19 CST] [INFO] ---------------------------------------------------------------
+[2018/12/04 14:48:19 CST] [INFO] 
+[2018/12/04 14:48:19 CST] [INFO] ===============================================================
+[2018/12/04 14:48:19 CST] [INFO] 37. Start TestCase:TestCallContractStatic
+[2018/12/04 14:48:19 CST] [INFO] ---------------------------------------------------------------
+[2018/12/04 14:48:19 CST] [INFO] CodeA Address:69f37dd304cce6379a46fd378e8adaa46311713d
+[2018/12/04 14:48:19 CST] [INFO] TestCallContractStatic Deploy contract a TxHash:1fa4406f4634964d420a91a2614b696f42cbc5102859f9561dc61b297983e935
+[2018/12/04 14:48:30 CST] [INFO] TestCallContractStatic Deploy contract b TxHash:568c74ce1af67625ce629b8107860fcad34de2bce0c19ec1193a483a6b635476
+[2018/12/04 14:48:36 CST] [INFO] TestCase:TestCallContractStatic success.
+[2018/12/04 14:48:36 CST] [INFO] ---------------------------------------------------------------
+[2018/12/04 14:48:36 CST] [INFO] 
+[2018/12/04 14:48:36 CST] [INFO] ===============================================================
+[2018/12/04 14:48:36 CST] [INFO] 38. Start TestCase:TestGetBlock
+[2018/12/04 14:48:36 CST] [INFO] ---------------------------------------------------------------
+[2018/12/04 14:48:49 CST] [INFO] TestCase:TestGetBlock success.
+[2018/12/04 14:48:49 CST] [INFO] ---------------------------------------------------------------
+[2018/12/04 14:48:49 CST] [INFO] 
+[2018/12/04 14:48:49 CST] [INFO] ===============================================================
+[2018/12/04 14:48:49 CST] [INFO] 39. Start TestCase:TestGetContract
+[2018/12/04 14:48:49 CST] [INFO] ---------------------------------------------------------------
+[2018/12/04 14:49:01 CST] [INFO] TestCase:TestGetContract success.
+[2018/12/04 14:49:01 CST] [INFO] ---------------------------------------------------------------
+[2018/12/04 14:49:01 CST] [INFO] 
+[2018/12/04 14:49:01 CST] [INFO] ===============================================================
+[2018/12/04 14:49:01 CST] [INFO] 40. Start TestCase:TestContractCreate
+[2018/12/04 14:49:01 CST] [INFO] ---------------------------------------------------------------
+[2018/12/04 14:49:06 CST] [INFO] TestCase:TestContractCreate success.
+[2018/12/04 14:49:06 CST] [INFO] ---------------------------------------------------------------
+[2018/12/04 14:49:06 CST] [INFO] 
+[2018/12/04 14:49:06 CST] [INFO] ===============================================================
+[2018/12/04 14:49:06 CST] [INFO] 41. Start TestCase:TestContractDestroy
+[2018/12/04 14:49:06 CST] [INFO] ---------------------------------------------------------------
+[2018/12/04 14:49:43 CST] [INFO] TestContractDestroy start PrepareInvokeNeoVMContractWithRes
+[2018/12/04 14:49:43 CST] [INFO] TestCase:TestContractDestroy success.
+[2018/12/04 14:49:43 CST] [INFO] ---------------------------------------------------------------
+[2018/12/04 14:49:43 CST] [INFO] 
+[2018/12/04 14:49:43 CST] [INFO] ===============================================================
+[2018/12/04 14:49:43 CST] [INFO] 42. Start TestCase:TestCallingScriptHash
+[2018/12/04 14:49:43 CST] [INFO] ---------------------------------------------------------------
+[2018/12/04 14:50:00 CST] [INFO] CodeA Address:7d0cd19e13a388af45af797fff87894cecb6d4ae
+[2018/12/04 14:50:00 CST] [INFO] CodeB Address:421a321883457de3de86af3697cfde32466ae019
+[2018/12/04 14:50:00 CST] [INFO] TestCase:TestCallingScriptHash success.
+[2018/12/04 14:50:00 CST] [INFO] ---------------------------------------------------------------
+[2018/12/04 14:50:00 CST] [INFO] 
+[2018/12/04 14:50:00 CST] [INFO] ===============================================================
+[2018/12/04 14:50:00 CST] [INFO] 43. Start TestCase:TestCheckWitness
+[2018/12/04 14:50:00 CST] [INFO] ---------------------------------------------------------------
+[2018/12/04 14:50:12 CST] [INFO] TestCase:TestCheckWitness success.
+[2018/12/04 14:50:12 CST] [INFO] ---------------------------------------------------------------
+[2018/12/04 14:50:12 CST] [INFO] 
+[2018/12/04 14:50:12 CST] [INFO] ===============================================================
+[2018/12/04 14:50:12 CST] [INFO] 44. Start TestCase:TestRuntimeNotify
+[2018/12/04 14:50:12 CST] [INFO] ---------------------------------------------------------------
+[2018/12/04 14:50:24 CST] [INFO] TestCase:TestRuntimeNotify success.
+[2018/12/04 14:50:24 CST] [INFO] ---------------------------------------------------------------
+[2018/12/04 14:50:24 CST] [INFO] 
+[2018/12/04 14:50:24 CST] [INFO] ===============================================================
+[2018/12/04 14:50:24 CST] [INFO] 45. Start TestCase:TestGetTxHash
+[2018/12/04 14:50:24 CST] [INFO] ---------------------------------------------------------------
+[2018/12/04 14:50:43 CST] [INFO] TestCase:TestGetTxHash success.
+[2018/12/04 14:50:43 CST] [INFO] ---------------------------------------------------------------
+[2018/12/04 14:50:43 CST] [INFO] 
+[2018/12/04 14:50:43 CST] [INFO] ===============================================================
+[2018/12/04 14:50:43 CST] [INFO] 46. Start TestCase:TestGetTxType
+[2018/12/04 14:50:43 CST] [INFO] ---------------------------------------------------------------
+[2018/12/04 14:50:54 CST] [INFO] TestCase:TestGetTxType success.
+[2018/12/04 14:50:54 CST] [INFO] ---------------------------------------------------------------
+[2018/12/04 14:50:54 CST] [INFO] 
+[2018/12/04 14:50:54 CST] [INFO] ===============================================================
+[2018/12/04 14:50:54 CST] [INFO] 47. Start TestCase:TestStorage
+[2018/12/04 14:50:54 CST] [INFO] ---------------------------------------------------------------
+[2018/12/04 14:50:54 CST] [INFO] TestStorage address:3a2e178a18b4d26cb9b979d04ddb3b1a88cbd93c
+[2018/12/04 14:50:54 CST] [INFO] TestStorage deploy tx:227c69c28688a435722f2f0e4dc7f78a52f19471cde859e47072c46e5d39886e
+[2018/12/04 14:51:01 CST] [INFO] TestStorage invoke tx:0468f7453455e303ebb5d3112e3f702941238e66cf53df5fc1e90a8d3e316afb
+
+[2018/12/04 14:51:07 CST] [INFO] TestCase:TestStorage success.
+[2018/12/04 14:51:07 CST] [INFO] ---------------------------------------------------------------
+[2018/12/04 14:51:07 CST] [INFO] 
+[2018/12/04 14:51:07 CST] [INFO] ===============================================================
+[2018/12/04 14:51:07 CST] [INFO] 48. Start TestCase:TestOntTransfer
+[2018/12/04 14:51:07 CST] [INFO] ---------------------------------------------------------------
+[2018/12/04 14:51:07 CST] [WARN] TestOntTransfer failed. Balance of admin is 0
+[2018/12/04 14:51:07 CST] [INFO] TestCase:TestOntTransfer failed.
+[2018/12/04 14:51:07 CST] [INFO] ---------------------------------------------------------------
+[2018/12/04 14:51:07 CST] [INFO] 
+[2018/12/04 14:51:07 CST] [INFO] ===============================================================
+[2018/12/04 14:51:07 CST] [INFO] 49. Start TestCase:TestOntTransferMulti
+[2018/12/04 14:51:07 CST] [INFO] ---------------------------------------------------------------
+[2018/12/04 14:51:07 CST] [EROR] TestOntTransferMulti Rpc.Transfer error:JsonRpcResponse error code:-1 desc:INTERNAL ERROR, ErrUnknown result:"[NeoVmService] service system call error!: [SystemCall] service execute error!: [Invoke] Native serivce function execute error!: [Transfer] balance insufficient. contract:0100000000000000000000000000000000000000, account:ARVVxBPGySL56CvSSWfjRVVyZYpNZ7zp48,balance:0, transfer amount:10"
+[2018/12/04 14:51:07 CST] [INFO] TestCase:TestOntTransferMulti failed.
+[2018/12/04 14:51:07 CST] [INFO] ---------------------------------------------------------------
+[2018/12/04 14:51:07 CST] [INFO] 
+[2018/12/04 14:51:07 CST] [INFO] ===============================================================
+[2018/12/04 14:51:07 CST] [INFO] 50. Start TestCase:TestWithdrawONG
+[2018/12/04 14:51:07 CST] [INFO] ---------------------------------------------------------------
+[2018/12/04 14:51:08 CST] [EROR] TestWithdrawONG ont balance = 0
+[2018/12/04 14:51:08 CST] [INFO] TestCase:TestWithdrawONG failed.
+[2018/12/04 14:51:08 CST] [INFO] ---------------------------------------------------------------
+[2018/12/04 14:51:08 CST] [INFO] 
+[2018/12/04 14:51:08 CST] [INFO] ===============================================================
+[2018/12/04 14:51:08 CST] [INFO] 51. Start TestCase:TestGlobalParam
+[2018/12/04 14:51:08 CST] [INFO] ---------------------------------------------------------------
+[2018/12/04 14:51:08 CST] [INFO] TestGlobalParam testGetGlobalParam success
+[2018/12/04 14:51:08 CST] [EROR] TestGlobalParam testSetGlobalParam error:testSetGlobalParam SetGlobalParams error:testSetGlobalParam SetGlobalParams error:JsonRpcResponse error code:-1 desc:INTERNAL ERROR, ErrUnknown result:"[NeoVmService] service system call error!: [SystemCall] service execute error!: [Invoke] Native serivce function execute error!: set param, authentication failed!"
+[2018/12/04 14:51:08 CST] [INFO] TestCase:TestGlobalParam failed.
+[2018/12/04 14:51:08 CST] [INFO] ---------------------------------------------------------------
+[2018/12/04 14:51:08 CST] [INFO] 
+[2018/12/04 14:51:08 CST] [INFO] ===============================================================
+[2018/12/04 14:51:08 CST] [INFO] 52. Start TestCase:TestAuth
+[2018/12/04 14:51:08 CST] [INFO] ---------------------------------------------------------------
+[2018/12/04 14:51:08 CST] [INFO] user's ong balance is 0
+[2018/12/04 14:51:08 CST] [INFO] user's ont balance is 0
+[2018/12/04 14:51:08 CST] [INFO] CodeAddress:73f5082c3a9c7ac84d60d0b540e7f62a452ce729
+[2018/12/04 14:51:12 CST] [INFO] txHash: 6672820e158287125c405ea440d4fe261409fdca7c43d06fa790082135169505
+[2018/12/04 14:51:12 CST] [INFO] txHash: %!(EXTRA string=0000000000000000000000000000000000000000000000000000000000000000)
+[2018/12/04 14:51:12 CST] [EROR] JsonRpcResponse error code:-1 desc:INTERNAL ERROR, ErrUnknown result:"[NeoVmService] service system call error!: [SystemCall] service execute error!: [Invoke] Native serivce function execute error!: register ONT ID error: already registered"
+[2018/12/04 14:51:12 CST] [EROR] reg admin's ONT ID failed: %!(EXTRA string=did:ont:AeoWeBLt6wnRhow2qyrCuZKcGFU3qhwHnm)
+[2018/12/04 14:51:12 CST] [INFO] txHash: %!(EXTRA string=87a7be7fc94d07b1013a430ca48e3c4c4f71a0b071796c6bb47695747c8db0a3)
+[2018/12/04 14:51:25 CST] [INFO] result is : [Register did:ont:AcXZiSjR8cJfkXG5KoWGcb1Gk2ZhweVPaz]
+[2018/12/04 14:51:25 CST] [INFO] txHash: %!(EXTRA string=68b3c57cc44c1cde8c3e7eec3ed7cbaae1232b5ae92bda6351ac4ea4db93ffc5)
+[2018/12/04 14:51:37 CST] [INFO] result is : [Register did:ont:Abw9zSebfKnP6s9aRArqGVaLeUCeUSovv8]
+[2018/12/04 14:51:37 CST] [INFO] txHash: %!(EXTRA string=54684cdf1bb2660f724cd6fc08d3186c75b9097fdb9ebf5eb5e824b8be8ad7ec)
+[2018/12/04 14:51:49 CST] [EROR] failed to init app contract's admin
+[2018/12/04 14:51:49 CST] [INFO] txHash: %!(EXTRA string=0000000000000000000000000000000000000000000000000000000000000000)
+[2018/12/04 14:51:49 CST] [EROR] JsonRpcResponse error code:-1 desc:INTERNAL ERROR, ErrUnknown result:"[NeoVmService] service system call error!: [SystemCall] service execute error!: [Invoke] Native serivce function execute error!: [assignFuncsToRole] verify admin's signature failed: [Invoke] Native serivce function execute error!: verify signature failed: check witness failed, 0274e256a6512a809bfc95c9660bcba9492e651e8e0b2a6f2f83532f081d59a7d2"
+[2018/12/04 14:51:49 CST] [EROR] failed to assign funcs to role
+[2018/12/04 14:51:49 CST] [INFO] txHash: %!(EXTRA string=0000000000000000000000000000000000000000000000000000000000000000)
+[2018/12/04 14:51:49 CST] [EROR] JsonRpcResponse error code:-1 desc:INTERNAL ERROR, ErrUnknown result:"[NeoVmService] service system call error!: [SystemCall] service execute error!: [Invoke] Native serivce function execute error!: [assignOntIDsToRole] failed: verify admin's signature failed: [Invoke] Native serivce function execute error!: verify signature failed: check witness failed, 0274e256a6512a809bfc95c9660bcba9492e651e8e0b2a6f2f83532f081d59a7d2"
+[2018/12/04 14:51:49 CST] [EROR] failed to assign OntID to role
+[2018/12/04 14:51:49 CST] [INFO] txHash: %!(EXTRA string=777b930c3ed124829ef5c2bb98dbf88d70b75e5f9528d6c7b9b1217392b3fc56)
+[2018/12/04 14:52:01 CST] [INFO] result is : [delegate 73f5082c3a9c7ac84d60d0b540e7f62a452ce729 ZGlkOm9udDpBYnc5elNlYmZLblA2czlhUkFycUdWYUxlVUNlVVNvdnY4 ZGlkOm9udDpBY1haaVNqUjhjSmZrWEc1S29XR2NiMUdrMlpod2VWUGF6 false]
+[2018/12/04 14:52:01 CST] [INFO] txHash: %!(EXTRA string=c915aca378bc36a0246c2cbf7480d4fe3fc12a2a4a261ff4e40e58fd184476f6)
+[2018/12/04 14:52:13 CST] [INFO] result is : [verifyToken 73f5082c3a9c7ac84d60d0b540e7f62a452ce729 ZGlkOm9udDpBY1haaVNqUjhjSmZrWEc1S29XR2NiMUdrMlpod2VWUGF6 B false]
+[2018/12/04 14:52:13 CST] [INFO] txHash: %!(EXTRA string=962c704c4bc6e3fa07397707cd9b16372a587e6f05058819af7d3f98950eac1f)
+[2018/12/04 14:52:24 CST] [INFO] result is : [withdraw 73f5082c3a9c7ac84d60d0b540e7f62a452ce729 ZGlkOm9udDpBYnc5elNlYmZLblA2czlhUkFycUdWYUxlVUNlVVNvdnY4 ZGlkOm9udDpBY1haaVNqUjhjSmZrWEc1S29XR2NiMUdrMlpod2VWUGF6 false]
+[2018/12/04 14:52:24 CST] [INFO] txHash: %!(EXTRA string=c6122b16dbc4c781010577a191eec428c0f2e700ce6768c1892e447c9bb2b5b3)
+[2018/12/04 14:52:36 CST] [INFO] result is : [verifyToken 73f5082c3a9c7ac84d60d0b540e7f62a452ce729 ZGlkOm9udDpBY1haaVNqUjhjSmZrWEc1S29XR2NiMUdrMlpod2VWUGF6 B false]
+[2018/12/04 14:52:36 CST] [INFO] TestCase:TestAuth success.
+[2018/12/04 14:52:36 CST] [INFO] ---------------------------------------------------------------
+[2018/12/04 14:52:36 CST] [INFO] 
+[2018/12/04 14:52:36 CST] [INFO] ===============================================================
+[2018/12/04 14:52:36 CST] [INFO] 53. Start TestCase:ontid
+[2018/12/04 14:52:36 CST] [INFO] ---------------------------------------------------------------
+[2018/12/04 14:52:36 CST] [INFO] ID: did:ont:TJ1DJ7X1syZmX18zdGSg1t4dfkdaaBnFuS
+[2018/12/04 14:52:37 CST] [EROR] InvokeNativeContract error: JsonRpcResponse error code:-1 desc:INTERNAL ERROR, ErrUnknown result:"[NeoVmService] service system call error!: [SystemCall] service execute error!: [Invoke] Native serivce function execute error!: register ONT ID error: invalid length of argument 0"
+[2018/12/04 14:52:37 CST] [EROR] InvokeNativeContract error: JsonRpcResponse error code:-1 desc:INTERNAL ERROR, ErrUnknown result:"[NeoVmService] service system call error!: [SystemCall] service execute error!: [Invoke] Native serivce function execute error!: register ONT ID error: invalid length of argument 0"
+[2018/12/04 14:52:37 CST] [EROR] InvokeNativeContract error: JsonRpcResponse error code:-1 desc:INTERNAL ERROR, ErrUnknown result:"[NeoVmService] service system call error!: [SystemCall] service execute error!: [Invoke] Native serivce function execute error!: register ONT ID error: invalid argument"
+[2018/12/04 14:52:43 CST] [INFO] result is : [Register did:ont:TJ1DJ7X1syZmX18zdGSg1t4dfkdaaBnFuS]
+[2018/12/04 14:52:43 CST] [EROR] InvokeNativeContract error: JsonRpcResponse error code:-1 desc:INTERNAL ERROR, ErrUnknown result:"[NeoVmService] service system call error!: [SystemCall] service execute error!: [Invoke] Native serivce function execute error!: add key failed: argument 1 error, EOF"
+[2018/12/04 14:52:44 CST] [EROR] InvokeNativeContract error: JsonRpcResponse error code:-1 desc:INTERNAL ERROR, ErrUnknown result:"[NeoVmService] service system call error!: [SystemCall] service execute error!: [Invoke] Native serivce function execute error!: add key failed: encode ONT ID error: invalid ID length"
+[2018/12/04 14:52:44 CST] [EROR] InvokeNativeContract error: JsonRpcResponse error code:-1 desc:INTERNAL ERROR, ErrUnknown result:"[NeoVmService] service system call error!: [SystemCall] service execute error!: [Invoke] Native serivce function execute error!: add key failed: ID not registered"
+[2018/12/04 14:52:44 CST] [EROR] InvokeNativeContract error: JsonRpcResponse error code:-1 desc:INTERNAL ERROR, ErrUnknown result:"[NeoVmService] service system call error!: [SystemCall] service execute error!: [Invoke] Native serivce function execute error!: add key failed: check witness failed, check witness failed, "
+[2018/12/04 14:52:44 CST] [EROR] InvokeNativeContract error: JsonRpcResponse error code:-1 desc:INTERNAL ERROR, ErrUnknown result:"[NeoVmService] service system call error!: [SystemCall] service execute error!: [Invoke] Native serivce function execute error!: add key failed: check witness failed, check witness failed, 02cf5dc8cfd66f603130d039b82c9998d7bd93ef08a72d4a3466bbd21c164f25a3"
+[2018/12/04 14:52:49 CST] [INFO] result is : [PublicKey add did:ont:TJ1DJ7X1syZmX18zdGSg1t4dfkdaaBnFuS 2 02144c12f36cbabd2a6a7edcf5c45c3ffe5b44a523e9610bd149e708ebd3436035]
+[2018/12/04 14:52:54 CST] [INFO] result is : [PublicKey remove did:ont:TJ1DJ7X1syZmX18zdGSg1t4dfkdaaBnFuS 2 02144c12f36cbabd2a6a7edcf5c45c3ffe5b44a523e9610bd149e708ebd3436035]
+[2018/12/04 14:52:54 CST] [EROR] InvokeNativeContract error: JsonRpcResponse error code:-1 desc:INTERNAL ERROR, ErrUnknown result:"[NeoVmService] service system call error!: [SystemCall] service execute error!: [Invoke] Native serivce function execute error!: remove key failed: public key has already been revoked"
+[2018/12/04 14:53:06 CST] [EROR] InvokeNativeContract error: JsonRpcResponse error code:-1 desc:INTERNAL ERROR, ErrUnknown result:"[NeoVmService] service system call error!: [SystemCall] service execute error!: [Invoke] Native serivce function execute error!: get key state failed: invalid key index"
+[2018/12/04 14:53:12 CST] [INFO] result is : [Recovery add did:ont:TJ1DJ7X1syZmX18zdGSg1t4dfkdaaBnFuS 7f725ed9b76629a0fca5025ed7970b5ad1fec043]
+[2018/12/04 14:53:19 CST] [INFO] result is : [PublicKey add did:ont:TJ1DJ7X1syZmX18zdGSg1t4dfkdaaBnFuS 3 131402c4f6fc8bfb6b42f9ad7367346fb6fc3c2999d7f4358405ad62aeb9345e339fd6]
+[2018/12/04 14:53:24 CST] [INFO] result is : [Recovery change did:ont:TJ1DJ7X1syZmX18zdGSg1t4dfkdaaBnFuS ad79c9be5bd5c17ec2b76f1ea38c7ba3d733773f]
+[2018/12/04 14:53:24 CST] [INFO] result: N   !ÀÃÇü–èY[òã9ÕS×(êo!®ƒŠ·ÊþŠV   #Äöü‹ûkBù­sg4o¶ü<)™×ô5„­b®¹4^3ŸÖ ?w3×£{Œ£o·Â~ÁÕ[¾Éy­
+[2018/12/04 14:53:24 CST] [INFO] keys: 010000002103c0c30f11c7fc1396e8595bf2e339d553d728ea6f21ae831e8ab704ca14fe8a560300000023131402c4f6fc8bfb6b42f9ad7367346fb6fc3c2999d7f4358405ad62aeb9345e339fd6
+[2018/12/04 14:53:24 CST] [INFO] attributes: 
+[2018/12/04 14:53:24 CST] [INFO] TestCase:ontid success.
+[2018/12/04 14:53:24 CST] [INFO] ---------------------------------------------------------------
+[2018/12/04 14:53:24 CST] [INFO] 
+[2018/12/04 14:53:24 CST] [INFO] ===============================================================
+[2018/12/04 14:53:24 CST] [INFO] 54. Start TestCase:ontid-attr
+[2018/12/04 14:53:24 CST] [INFO] ---------------------------------------------------------------
+[2018/12/04 14:53:25 CST] [EROR] InvokeNativeContract error: JsonRpcResponse error code:-1 desc:INTERNAL ERROR, ErrUnknown result:"[NeoVmService] service system call error!: [SystemCall] service execute error!: [Invoke] Native serivce function execute error!: register ID with attributes error: argument 0 error, invalid length"
+[2018/12/04 14:53:25 CST] [EROR] InvokeNativeContract error: JsonRpcResponse error code:-1 desc:INTERNAL ERROR, ErrUnknown result:"[NeoVmService] service system call error!: [SystemCall] service execute error!: [Invoke] Native serivce function execute error!: register ID with attributes error: argument 0 error, invalid length"
+[2018/12/04 14:53:25 CST] [EROR] InvokeNativeContract error: JsonRpcResponse error code:-1 desc:INTERNAL ERROR, ErrUnknown result:"[NeoVmService] service system call error!: [SystemCall] service execute error!: [Invoke] Native serivce function execute error!: register ID with attributes error: invalid public key: too short pubkey"
+[2018/12/04 14:53:25 CST] [EROR] InvokeNativeContract error: JsonRpcResponse error code:-1 desc:INTERNAL ERROR, ErrUnknown result:"[NeoVmService] service system call error!: [SystemCall] service execute error!: [Invoke] Native serivce function execute error!: register ID with attributes error: insert attribute error: store attributes error: store attribute error: [linked list] invalid item"
+[2018/12/04 14:53:31 CST] [INFO] result is : [Register did:ont:TDt3tg1fH4XzKJsEnuVbnovf82fmnj1US1]
+[2018/12/04 14:53:36 CST] [INFO] result is : [Attribute add did:ont:TDt3tg1fH4XzKJsEnuVbnovf82fmnj1US1 [6174747231 6174747232]]
+[2018/12/04 14:53:43 CST] [INFO] result is : [Attribute remove did:ont:TDt3tg1fH4XzKJsEnuVbnovf82fmnj1US1 6174747232]
+[2018/12/04 14:53:43 CST] [INFO] result: &   !ÀÃÇü–èY[òã9ÕS×(êo!®ƒŠ·ÊþŠVattr1attr0  
+[2018/12/04 14:53:43 CST] [INFO] keys: 010000002103c0c30f11c7fc1396e8595bf2e339d553d728ea6f21ae831e8ab704ca14fe8a56
+[2018/12/04 14:53:43 CST] [INFO] attributes: 056174747231010102010205617474723001000101
+[2018/12/04 14:53:43 CST] [INFO] TestCase:ontid-attr success.
+[2018/12/04 14:53:43 CST] [INFO] ---------------------------------------------------------------
+[2018/12/04 14:53:43 CST] [INFO] 
+[2018/12/04 14:53:43 CST] [INFO] ===============================================================
+[2018/12/04 14:53:43 CST] [INFO] 55. Start TestCase:TestDeploySmartContract
+[2018/12/04 14:53:43 CST] [INFO] ---------------------------------------------------------------
+[2018/12/04 14:53:43 CST] [INFO] CodeAddress:a7d9f1ff4b73fa81a55bc648adbff63526f3acef
+[2018/12/04 14:53:48 CST] [INFO] TestCase:TestDeploySmartContract success.
+[2018/12/04 14:53:48 CST] [INFO] ---------------------------------------------------------------
+[2018/12/04 14:53:48 CST] [INFO] 
+[2018/12/04 14:53:48 CST] [INFO] ===============================================================
+[2018/12/04 14:53:48 CST] [INFO] 56. Start TestCase:TestInvokeSmartContract
+[2018/12/04 14:53:48 CST] [INFO] ---------------------------------------------------------------
+[2018/12/04 14:53:48 CST] [INFO] TestInvokeSmartContract txHash:98696f9aa29cda8f7419eb77eb8ba420566eace63fe126a4c3777261de0aa986
+
+[2018/12/04 14:53:54 CST] [INFO] &{ContractAddress:efacf32635f6bfad48c65ba581fa734bfff1d9a7 States:[7472616e73666572 68656c6c6f 776f726c64 7b]}
+[2018/12/04 14:53:54 CST] [INFO] TestCase:TestInvokeSmartContract success.
+[2018/12/04 14:53:54 CST] [INFO] ---------------------------------------------------------------
+[2018/12/04 14:53:54 CST] [INFO] 
+[2018/12/04 14:53:54 CST] [INFO] ===============================================================
+[2018/12/04 14:53:54 CST] [INFO] 57. Start TestCase:TestDomainSmartContract
+[2018/12/04 14:53:54 CST] [INFO] ---------------------------------------------------------------
+[2018/12/04 14:53:54 CST] [INFO] =====CodeAddress===af0de45b6202375780d14b64a7d9552b5839e612
+[2018/12/04 14:54:07 CST] [INFO] ==svalue = onchain
+[2018/12/04 14:54:07 CST] [INFO] TestCase:TestDomainSmartContract success.
+[2018/12/04 14:54:07 CST] [INFO] ---------------------------------------------------------------
+[2018/12/04 14:54:07 CST] [INFO] 
+[2018/12/04 14:54:07 CST] [INFO] ===============================================================
+[2018/12/04 14:54:07 CST] [INFO] 58. Start TestCase:TestAsBigInteger
+[2018/12/04 14:54:07 CST] [INFO] ---------------------------------------------------------------
+[2018/12/04 14:54:12 CST] [INFO] TestCase:TestAsBigInteger success.
+[2018/12/04 14:54:12 CST] [INFO] ---------------------------------------------------------------
+[2018/12/04 14:54:12 CST] [INFO] 
+[2018/12/04 14:54:12 CST] [INFO] ===============================================================
+[2018/12/04 14:54:12 CST] [INFO] 59. Start TestCase:TestAsByteArrayBigInteger
+[2018/12/04 14:54:12 CST] [INFO] ---------------------------------------------------------------
+[2018/12/04 14:54:18 CST] [INFO] TestCase:TestAsByteArrayBigInteger success.
+[2018/12/04 14:54:18 CST] [INFO] ---------------------------------------------------------------
+[2018/12/04 14:54:18 CST] [INFO] 
+[2018/12/04 14:54:18 CST] [INFO] ===============================================================
+[2018/12/04 14:54:18 CST] [INFO] 60. Start TestCase:TestAsByteArrayString
+[2018/12/04 14:54:18 CST] [INFO] ---------------------------------------------------------------
+[2018/12/04 14:54:25 CST] [INFO] TestCase:TestAsByteArrayString success.
+[2018/12/04 14:54:25 CST] [INFO] ---------------------------------------------------------------
+[2018/12/04 14:54:25 CST] [INFO] 
+[2018/12/04 14:54:25 CST] [INFO] ===============================================================
+[2018/12/04 14:54:25 CST] [INFO] 61. Start TestCase:TestAsString
+[2018/12/04 14:54:25 CST] [INFO] ---------------------------------------------------------------
+[2018/12/04 14:54:30 CST] [INFO] TestCase:TestAsString success.
+[2018/12/04 14:54:30 CST] [INFO] ---------------------------------------------------------------
+[2018/12/04 14:54:30 CST] [INFO] 
+[2018/12/04 14:54:30 CST] [INFO] ===============================================================
+[2018/12/04 14:54:30 CST] [INFO] 62. Start TestCase:TestRange
+[2018/12/04 14:54:30 CST] [INFO] ---------------------------------------------------------------
+[2018/12/04 14:54:36 CST] [INFO] TestCase:TestRange success.
+[2018/12/04 14:54:36 CST] [INFO] ---------------------------------------------------------------
+[2018/12/04 14:54:36 CST] [INFO] 
+[2018/12/04 14:54:36 CST] [INFO] ===============================================================
+[2018/12/04 14:54:36 CST] [INFO] 63. Start TestCase:TestTake
+[2018/12/04 14:54:36 CST] [INFO] ---------------------------------------------------------------
+[2018/12/04 14:54:43 CST] [INFO] TestCase:TestTake success.
+[2018/12/04 14:54:43 CST] [INFO] ---------------------------------------------------------------
+[2018/12/04 14:54:43 CST] [INFO] 
+[2018/12/04 14:54:43 CST] [INFO] ===============================================================
+[2018/12/04 14:54:43 CST] [INFO] Ontology Test Finish Total:63 Success:59 Failed:4 Skip:0 TimeCost:547.32 s.
+[2018/12/04 14:54:43 CST] [INFO] ---------------------------------------------------------------
+[2018/12/04 14:54:43 CST] [INFO] Success list:
+[2018/12/04 14:54:43 CST] [INFO] 1.	TestTake
+[2018/12/04 14:54:43 CST] [INFO] 2.	TestOperationDivide
+[2018/12/04 14:54:43 CST] [INFO] 3.	TestAsByteArrayBigInteger
+[2018/12/04 14:54:43 CST] [INFO] 4.	ontid-attr
+[2018/12/04 14:54:43 CST] [INFO] 5.	TestGetBlockHeightByTxHash
+[2018/12/04 14:54:43 CST] [INFO] 6.	TestOperationMulti
+[2018/12/04 14:54:43 CST] [INFO] 7.	TestOperationLargerEqual
+[2018/12/04 14:54:43 CST] [INFO] 8.	TestStorage
+[2018/12/04 14:54:43 CST] [INFO] 9.	TestAuth
+[2018/12/04 14:54:43 CST] [INFO] 10.	ontid
+[2018/12/04 14:54:43 CST] [INFO] 11.	TestDomainSmartContract
+[2018/12/04 14:54:43 CST] [INFO] 12.	TestRange
+[2018/12/04 14:54:43 CST] [INFO] 13.	TestOperationAnd
+[2018/12/04 14:54:43 CST] [INFO] 14.	TestIfElse
+[2018/12/04 14:54:43 CST] [INFO] 15.	TestContractCreate
+[2018/12/04 14:54:43 CST] [INFO] 16.	TestAsString
+[2018/12/04 14:54:43 CST] [INFO] 17.	TestOperationAdd
+[2018/12/04 14:54:43 CST] [INFO] 18.	TestOperationSelfAdd
+[2018/12/04 14:54:43 CST] [INFO] 19.	TestOperationSelfSub
+[2018/12/04 14:54:43 CST] [INFO] 20.	TestGetContract
+[2018/12/04 14:54:43 CST] [INFO] 21.	TestGetBlockByHeight
+[2018/12/04 14:54:43 CST] [INFO] 22.	TestString
+[2018/12/04 14:54:43 CST] [INFO] 23.	TestByteArray
+[2018/12/04 14:54:43 CST] [INFO] 24.	TestGetStorage
+[2018/12/04 14:54:43 CST] [INFO] 25.	TestOperationSub
+[2018/12/04 14:54:43 CST] [INFO] 26.	TestOperationNotEqual
+[2018/12/04 14:54:43 CST] [INFO] 27.	TestOperationOr
+[2018/12/04 14:54:43 CST] [INFO] 28.	TestGetBlock
+[2018/12/04 14:54:43 CST] [INFO] 29.	TestGetTxType
+[2018/12/04 14:54:43 CST] [INFO] 30.	TestFor
+[2018/12/04 14:54:43 CST] [INFO] 31.	TestRuntimeNotify
+[2018/12/04 14:54:43 CST] [INFO] 32.	TestGetCurrentBlockHash
+[2018/12/04 14:54:43 CST] [INFO] 33.	TestGetBlockByHash
+[2018/12/04 14:54:43 CST] [INFO] 34.	TestReturnType
+[2018/12/04 14:54:43 CST] [INFO] 35.	TestDeploySmartContract
+[2018/12/04 14:54:43 CST] [INFO] 36.	TestAsBigInteger
+[2018/12/04 14:54:43 CST] [INFO] 37.	TestCallingScriptHash
+[2018/12/04 14:54:43 CST] [INFO] 38.	TestGetRawTransaction
+[2018/12/04 14:54:43 CST] [INFO] 39.	TestOperationLarger
+[2018/12/04 14:54:43 CST] [INFO] 40.	TestSwitch
+[2018/12/04 14:54:43 CST] [INFO] 41.	TestGetBlockHash
+[2018/12/04 14:54:43 CST] [INFO] 42.	TestGetTxHash
+[2018/12/04 14:54:43 CST] [INFO] 43.	TestGetSmartContract
+[2018/12/04 14:54:43 CST] [INFO] 44.	TestInteger
+[2018/12/04 14:54:43 CST] [INFO] 45.	TestAsByteArrayString
+[2018/12/04 14:54:43 CST] [INFO] 46.	TestOperationNegative
+[2018/12/04 14:54:43 CST] [INFO] 47.	TestOperationLeftShift
+[2018/12/04 14:54:43 CST] [INFO] 48.	TestCheckWitness
+[2018/12/04 14:54:43 CST] [INFO] 49.	TestOperationSmaller
+[2018/12/04 14:54:43 CST] [INFO] 50.	TestCallContractStatic
+[2018/12/04 14:54:43 CST] [INFO] 51.	TestContractDestroy
+[2018/12/04 14:54:43 CST] [INFO] 52.	TestInvokeSmartContract
+[2018/12/04 14:54:43 CST] [INFO] 53.	TestGetSmartContractEvent
+[2018/12/04 14:54:43 CST] [INFO] 54.	TestOperationEqual
+[2018/12/04 14:54:43 CST] [INFO] 55.	TestBoolean
+[2018/12/04 14:54:43 CST] [INFO] 56.	TestArray
+[2018/12/04 14:54:43 CST] [INFO] 57.	TestGetCurrentBlockHeight
+[2018/12/04 14:54:43 CST] [INFO] 58.	TestOperationSmallerEqual
+[2018/12/04 14:54:43 CST] [INFO] 59.	TestOperationRightShift
+[2018/12/04 14:54:43 CST] [INFO] ---------------------------------------------------------------
+[2018/12/04 14:54:43 CST] [INFO] Fail list:
+[2018/12/04 14:54:43 CST] [INFO] 1.	TestOntTransferMulti
+[2018/12/04 14:54:43 CST] [INFO] 2.	TestGlobalParam
+[2018/12/04 14:54:43 CST] [INFO] 3.	TestWithdrawONG
+[2018/12/04 14:54:43 CST] [INFO] 4.	TestOntTransfer
+[2018/12/04 14:54:43 CST] [INFO] ===============================================================

@@ -1,0 +1,16 @@
+[2018/12/10 17:27:21 CST] [INFO] ===============================================================
+[2018/12/10 17:27:21 CST] [INFO] -------Ontology Test Start Version:v1.5.2
+[2018/12/10 17:27:21 CST] [INFO] ===============================================================
+[2018/12/10 17:27:21 CST] [INFO] 
+[2018/12/10 17:27:21 CST] [INFO] Default account balance ont:789989780 ong:67890979069989799
+[2018/12/10 17:27:21 CST] [INFO] ===============================================================
+[2018/12/10 17:27:21 CST] [INFO] 1. Start TestCase:checkWitness
+[2018/12/10 17:27:21 CST] [INFO] ---------------------------------------------------------------
+[2018/12/10 17:27:21 CST] [INFO] =====CodeAddress===68029f5963e017c53d7834df02c506ec301a8652
+[2018/12/10 17:27:27 CST] [EROR] TestDomainSmartContract InvokeNeoVMSmartContract error: JsonRpcResponse error code:-1 desc:INTERNAL ERROR, ErrUnknown result:"[NeoVmService] service system call error!: [SystemCall] service validator error!: [validatorCheckWitness] Too few input parameters "
+[2018/12/10 17:27:33 CST] [INFO] ===============================================================
+[2018/12/10 17:27:33 CST] [INFO] Ontology Test Finish Total:1 Success:0 Failed:0 Skip:1 TimeCost:12.68 s.
+[2018/12/10 17:27:33 CST] [INFO] ---------------------------------------------------------------
+[2018/12/10 17:27:33 CST] [INFO] Skip list:
+[2018/12/10 17:27:33 CST] [INFO] 1.	checkWitness
+[2018/12/10 17:27:33 CST] [INFO] ===============================================================

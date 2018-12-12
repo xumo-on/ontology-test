@@ -1,3 +1,49 @@
+/*
+from boa.interop.System.ExecutionEngine import GetScriptContainer,GetExecutingScriptHash,GetCallingScriptHash,GetEntryScriptHash
+from boa.interop.System.Transaction	import GetTransactionHash
+from boa.interop.System.Storage	import Put
+from boa.interop.System.Storage	import GetContext
+from boa.interop.System.Runtime	import Notify
+from boa.interop.Ontology.Runtime import GetCurrentBlockHash
+from boa.interop.System.Blockchain import GetBlock
+from boa.interop.System.Block import GetTransactionByIndex
+from boa.interop.Ontology.Contract import GetScript
+
+context = GetContext()
+
+def Main(operation, args):
+    if operation == 'getScriptContainer':
+        return getScriptContainer()
+    if operation == 'getExecutingScriptHash':
+        return getExecutingScriptHash()
+    if operation == 'getCallingScriptHash':
+        return getCallingScriptHash()
+    return False
+
+def getScriptContainer():
+    container = GetScriptContainer()
+    Hash = GetTransactionHash(container)
+    bhash = GetCurrentBlockHash()
+    block = GetBlock(bhash)
+    tx = GetTransactionByIndex(block, 0)
+    tHash = GetTransactionHash(tx)
+    Put(context, 'get', Hash)
+    Put(context, 'get1', tHash)
+    return True
+
+def getExecutingScriptHash():
+    Hash = GetExecutingScriptHash()
+    Put(context, 'get', Hash)
+    Notify(Hash)
+    return True
+
+def getCallingScriptHash():
+    Hash = GetCallingScriptHash()
+    Hash1 = GetEntryScriptHash()
+    Notify(Hash)
+    Notify(Hash1)
+    return True
+ */
 package ExecutionEngine
 
 import (

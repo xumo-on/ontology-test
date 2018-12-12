@@ -1,0 +1,16 @@
+[2018/12/10 17:26:40 CST] [INFO] ===============================================================
+[2018/12/10 17:26:40 CST] [INFO] -------Ontology Test Start Version:v1.5.2
+[2018/12/10 17:26:40 CST] [INFO] ===============================================================
+[2018/12/10 17:26:40 CST] [INFO] 
+[2018/12/10 17:26:40 CST] [INFO] Default account balance ont:789989780 ong:67890979069989799
+[2018/12/10 17:26:40 CST] [INFO] ===============================================================
+[2018/12/10 17:26:40 CST] [INFO] 1. Start TestCase:checkWitness
+[2018/12/10 17:26:40 CST] [INFO] ---------------------------------------------------------------
+[2018/12/10 17:26:40 CST] [INFO] =====CodeAddress===60db71c91b734edb0d02013b8f9af3895db92c3f
+[2018/12/10 17:26:46 CST] [EROR] TestDomainSmartContract InvokeNeoVMSmartContract error: JsonRpcResponse error code:-1 desc:INTERNAL ERROR, ErrUnknown result:"[NeoVmService] service system call error!: [SystemCall] service execute error!: [RuntimeCheckWitness] data invalid.: deserializing public key failed: unrecognized algorithm label"
+[2018/12/10 17:26:51 CST] [INFO] ===============================================================
+[2018/12/10 17:26:51 CST] [INFO] Ontology Test Finish Total:1 Success:0 Failed:0 Skip:1 TimeCost:10.67 s.
+[2018/12/10 17:26:51 CST] [INFO] ---------------------------------------------------------------
+[2018/12/10 17:26:51 CST] [INFO] Skip list:
+[2018/12/10 17:26:51 CST] [INFO] 1.	checkWitness
+[2018/12/10 17:26:51 CST] [INFO] ===============================================================

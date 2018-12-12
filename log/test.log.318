@@ -1,0 +1,30 @@
+[2018/12/07 15:15:53 CST] [INFO] ===============================================================
+[2018/12/07 15:15:53 CST] [INFO] -------Ontology Test Start Version:v1.5.2
+[2018/12/07 15:15:53 CST] [INFO] ===============================================================
+[2018/12/07 15:15:53 CST] [INFO] 
+[2018/12/07 15:15:53 CST] [INFO] Default account balance ont:789989780 ong:67892101779989799
+[2018/12/07 15:15:53 CST] [INFO] ===============================================================
+[2018/12/07 15:15:53 CST] [INFO] 1. Start TestCase:TestGetHeight
+[2018/12/07 15:15:53 CST] [INFO] ---------------------------------------------------------------
+[2018/12/07 15:15:53 CST] [INFO] =====CodeAddress===54ccb3ce9495dd3f5b59354bb474e1dfb1650763
+[2018/12/07 15:16:05 CST] [INFO] ContractGetBlockHeight:%!(EXTRA uint64=15291)
+[2018/12/07 15:16:05 CST] [INFO] SdkGetBlockHeight:%!(EXTRA uint32=15292)
+[2018/12/07 15:16:05 CST] [INFO] TestCase:TestGetHeight success.
+[2018/12/07 15:16:05 CST] [INFO] ---------------------------------------------------------------
+[2018/12/07 15:16:05 CST] [INFO] 
+[2018/12/07 15:16:05 CST] [INFO] ===============================================================
+[2018/12/07 15:16:05 CST] [INFO] 2. Start TestCase:TestGetTransaction
+[2018/12/07 15:16:05 CST] [INFO] ---------------------------------------------------------------
+[2018/12/07 15:16:05 CST] [INFO] =====CodeAddress===54ccb3ce9495dd3f5b59354bb474e1dfb1650763
+[2018/12/07 15:16:06 CST] [EROR] TestDomainSmartContract InvokeNeoVMSmartContract error: JsonRpcResponse error code:-1 desc:INTERNAL ERROR, ErrUnknown result:"[NeoVmService] service system call error!: [SystemCall] service execute error!: [Common]: Uint256ParseFromBytes err, len != 32"
+[2018/12/07 15:16:11 CST] [INFO] txHash:%!(EXTRA uint64=0)
+[2018/12/07 15:16:11 CST] [INFO] TestCase:TestGetTransaction success.
+[2018/12/07 15:16:11 CST] [INFO] ---------------------------------------------------------------
+[2018/12/07 15:16:11 CST] [INFO] 
+[2018/12/07 15:16:11 CST] [INFO] ===============================================================
+[2018/12/07 15:16:11 CST] [INFO] Ontology Test Finish Total:2 Success:2 Failed:0 Skip:0 TimeCost:18.09 s.
+[2018/12/07 15:16:11 CST] [INFO] ---------------------------------------------------------------
+[2018/12/07 15:16:11 CST] [INFO] Success list:
+[2018/12/07 15:16:11 CST] [INFO] 1.	TestGetHeight
+[2018/12/07 15:16:11 CST] [INFO] 2.	TestGetTransaction
+[2018/12/07 15:16:11 CST] [INFO] ===============================================================

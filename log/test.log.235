@@ -1,0 +1,29 @@
+[2018/12/10 13:27:19 CST] [INFO] ===============================================================
+[2018/12/10 13:27:19 CST] [INFO] -------Ontology Test Start Version:v1.5.2
+[2018/12/10 13:27:19 CST] [INFO] ===============================================================
+[2018/12/10 13:27:19 CST] [INFO] 
+[2018/12/10 13:27:20 CST] [INFO] Default account balance ont:789989780 ong:67891449369989799
+[2018/12/10 13:27:20 CST] [INFO] ===============================================================
+[2018/12/10 13:27:20 CST] [INFO] 1. Start TestCase:TestGetExecutingScriptHash
+[2018/12/10 13:27:20 CST] [INFO] ---------------------------------------------------------------
+[2018/12/10 13:27:20 CST] [INFO] =====CodeAddress===9b1e79e4c0b250ddb1e63fef99e269845f69b428
+[2018/12/10 13:27:27 CST] [INFO] hash:%!(EXTRA string=9b1e79e4c0b250ddb1e63fef99e269845f69b428)
+[2018/12/10 13:27:27 CST] [INFO] TestCase:TestGetExecutingScriptHash success.
+[2018/12/10 13:27:27 CST] [INFO] ---------------------------------------------------------------
+[2018/12/10 13:27:27 CST] [INFO] 
+[2018/12/10 13:27:27 CST] [INFO] ===============================================================
+[2018/12/10 13:27:27 CST] [INFO] 2. Start TestCase:TestGetCallingScriptHash&GetEntryScriptHash
+[2018/12/10 13:27:27 CST] [INFO] ---------------------------------------------------------------
+[2018/12/10 13:27:27 CST] [INFO] =====CodeAddress===b7b3a3d535d394192bb8fad928966f54c314d6fe
+[2018/12/10 13:27:39 CST] [INFO] notify: %!(EXTRA string=ef17a77a38a72f13f603708cbe0723333d1c3485)
+[2018/12/10 13:27:39 CST] [INFO] notify1: %!(EXTRA string=ef17a77a38a72f13f603708cbe0723333d1c3485)
+[2018/12/10 13:27:39 CST] [INFO] TestCase:TestGetCallingScriptHash&GetEntryScriptHash success.
+[2018/12/10 13:27:39 CST] [INFO] ---------------------------------------------------------------
+[2018/12/10 13:27:39 CST] [INFO] 
+[2018/12/10 13:27:39 CST] [INFO] ===============================================================
+[2018/12/10 13:27:39 CST] [INFO] Ontology Test Finish Total:2 Success:2 Failed:0 Skip:0 TimeCost:20.06 s.
+[2018/12/10 13:27:39 CST] [INFO] ---------------------------------------------------------------
+[2018/12/10 13:27:39 CST] [INFO] Success list:
+[2018/12/10 13:27:39 CST] [INFO] 1.	TestGetExecutingScriptHash
+[2018/12/10 13:27:39 CST] [INFO] 2.	TestGetCallingScriptHash&GetEntryScriptHash
+[2018/12/10 13:27:39 CST] [INFO] ===============================================================

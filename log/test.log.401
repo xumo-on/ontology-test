@@ -1,0 +1,21 @@
+[2018/12/06 11:56:53 CST] [INFO] ===============================================================
+[2018/12/06 11:56:53 CST] [INFO] -------Ontology Test Start Version:v1.5.2
+[2018/12/06 11:56:53 CST] [INFO] ===============================================================
+[2018/12/06 11:56:53 CST] [INFO] 
+[2018/12/06 11:56:53 CST] [INFO] Default account balance ont:989989880 ong:67893655389989799
+[2018/12/06 11:56:53 CST] [INFO] ===============================================================
+[2018/12/06 11:56:53 CST] [INFO] 1. Start TestCase:TestGetCurrentBlockHeight
+[2018/12/06 11:56:53 CST] [INFO] ---------------------------------------------------------------
+[2018/12/06 11:56:53 CST] [INFO] SdkGetBlockHeight:%!(EXTRA uint32=8619)
+[2018/12/06 11:56:53 CST] [INFO] =====CodeAddress===50b967a824473232bbbe4e568d5a6f142988c1f6
+[2018/12/06 11:57:06 CST] [INFO] ContractGetBlockHeight:%!(EXTRA string=12345678)
+[2018/12/06 11:57:06 CST] [INFO] ContractGetBlockHeight:%!(EXTRA []string=[78 56 34 12])
+[2018/12/06 11:57:06 CST] [INFO] TestCase:TestGetCurrentBlockHeight success.
+[2018/12/06 11:57:06 CST] [INFO] ---------------------------------------------------------------
+[2018/12/06 11:57:06 CST] [INFO] 
+[2018/12/06 11:57:06 CST] [INFO] ===============================================================
+[2018/12/06 11:57:06 CST] [INFO] 2. Start TestCase:TestGetCurrentBlockHash
+[2018/12/06 11:57:06 CST] [INFO] ---------------------------------------------------------------
+[2018/12/06 11:57:06 CST] [INFO] SdkGetBlockHash:%!(EXTRA common.Uint256=[255 130 196 230 224 254 251 16 102 138 29 54 108 223 155 151 46 200 96 8 205 82 204 239 254 248 247 23 15 114 131 218])
+[2018/12/06 11:57:06 CST] [INFO] =====CodeAddress===cb9f3b7c6fb1cf2c13a40637c189bdd066a272b4
+[2018/12/06 11:57:12 CST] [EROR] TestDomainSmartContract InvokeNeoVMSmartContract error: JsonRpcResponse error code:-1 desc:INTERNAL ERROR, ErrUnknown result:"[NeoVmService] vm execute code invalid!"

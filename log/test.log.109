@@ -1,0 +1,37 @@
+[2018/12/11 15:33:57 CST] [INFO] ===============================================================
+[2018/12/11 15:33:57 CST] [INFO] -------Ontology Test Start Version:v1.5.2
+[2018/12/11 15:33:57 CST] [INFO] ===============================================================
+[2018/12/11 15:33:57 CST] [INFO] 
+[2018/12/11 15:33:57 CST] [INFO] Default account balance ont:789989780 ong:67890298699989799
+[2018/12/11 15:33:57 CST] [INFO] ===============================================================
+[2018/12/11 15:33:57 CST] [INFO] 1. Start TestCase:TestGetScriptContainer
+[2018/12/11 15:33:57 CST] [INFO] ---------------------------------------------------------------
+[2018/12/11 15:33:57 CST] [INFO] =====CodeAddress===b7b3a3d535d394192bb8fad928966f54c314d6fe
+[2018/12/11 15:34:05 CST] [INFO] hash:%!(EXTRA string=ebbd4c56bcbd4cc1c0c96ca59a9a3c0064e7736b03991619a26cd837d42d15b7)
+[2018/12/11 15:34:05 CST] [INFO] hash1:%!(EXTRA string=ebbd4c56bcbd4cc1c0c96ca59a9a3c0064e7736b03991619a26cd837d42d15b7)
+[2018/12/11 15:34:05 CST] [INFO] TestCase:TestGetScriptContainer success.
+[2018/12/11 15:34:05 CST] [INFO] ---------------------------------------------------------------
+[2018/12/11 15:34:05 CST] [INFO] 
+[2018/12/11 15:34:05 CST] [INFO] ===============================================================
+[2018/12/11 15:34:05 CST] [INFO] 2. Start TestCase:TestGetExecutingScriptHash
+[2018/12/11 15:34:05 CST] [INFO] ---------------------------------------------------------------
+[2018/12/11 15:34:12 CST] [INFO] hash:%!(EXTRA string=b7b3a3d535d394192bb8fad928966f54c314d6fe)
+[2018/12/11 15:34:12 CST] [INFO] TestCase:TestGetExecutingScriptHash success.
+[2018/12/11 15:34:12 CST] [INFO] ---------------------------------------------------------------
+[2018/12/11 15:34:12 CST] [INFO] 
+[2018/12/11 15:34:12 CST] [INFO] ===============================================================
+[2018/12/11 15:34:12 CST] [INFO] 3. Start TestCase:TestGetCallingScriptHash&GetEntryScriptHash
+[2018/12/11 15:34:12 CST] [INFO] ---------------------------------------------------------------
+[2018/12/11 15:34:17 CST] [INFO] notify: %!(EXTRA string=ef17a77a38a72f13f603708cbe0723333d1c3485)
+[2018/12/11 15:34:17 CST] [INFO] notify1: %!(EXTRA string=ef17a77a38a72f13f603708cbe0723333d1c3485)
+[2018/12/11 15:34:17 CST] [INFO] TestCase:TestGetCallingScriptHash&GetEntryScriptHash success.
+[2018/12/11 15:34:17 CST] [INFO] ---------------------------------------------------------------
+[2018/12/11 15:34:17 CST] [INFO] 
+[2018/12/11 15:34:17 CST] [INFO] ===============================================================
+[2018/12/11 15:34:17 CST] [INFO] Ontology Test Finish Total:3 Success:3 Failed:0 Skip:0 TimeCost:20.29 s.
+[2018/12/11 15:34:17 CST] [INFO] ---------------------------------------------------------------
+[2018/12/11 15:34:17 CST] [INFO] Success list:
+[2018/12/11 15:34:17 CST] [INFO] 1.	TestGetScriptContainer
+[2018/12/11 15:34:17 CST] [INFO] 2.	TestGetExecutingScriptHash
+[2018/12/11 15:34:17 CST] [INFO] 3.	TestGetCallingScriptHash&GetEntryScriptHash
+[2018/12/11 15:34:17 CST] [INFO] ===============================================================

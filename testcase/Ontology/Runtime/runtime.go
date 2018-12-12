@@ -1,3 +1,36 @@
+/*
+from boa.interop.Ontology.Runtime import Base58ToAddress,AddressToBase58,GetRandomHash
+from boa.interop.System.Runtime import Notify
+from boa.interop.System.Storage	import Put,GetContext
+
+context = GetContext()
+
+def Main(operation, args):
+    if operation == 'BTA':
+        return BTA()
+    if operation == 'ATB':
+        return ATB()
+    if operation == 'getHash':
+        return getHash()
+    return False
+
+def BTA():
+    bta = Base58ToAddress('ASwaf8mj2E3X18MHvcJtXoDsMqUjJswRWS')
+    Put(context, 'get', bta)
+    return bta
+
+def ATB():
+    bta = BTA()
+    atb = AddressToBase58(bta)
+    Put(context, 'get', atb)
+    return True
+
+def getHash():
+    blockhash = GetCurrentBlockHash()
+    Put(context, 'get', blockhash)
+    Notify(blockhash)
+    return True
+ */
 package Runtime
 
 import (

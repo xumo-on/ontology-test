@@ -1,0 +1,19 @@
+[2018/12/10 10:19:19 CST] [INFO] ===============================================================
+[2018/12/10 10:19:19 CST] [INFO] -------Ontology Test Start Version:v1.5.2
+[2018/12/10 10:19:19 CST] [INFO] ===============================================================
+[2018/12/10 10:19:19 CST] [INFO] 
+[2018/12/10 10:19:19 CST] [INFO] Default account balance ont:789989780 ong:67891549479989799
+[2018/12/10 10:19:19 CST] [INFO] ===============================================================
+[2018/12/10 10:19:19 CST] [INFO] 1. Start TestCase:TestGetStorageContext
+[2018/12/10 10:19:19 CST] [INFO] ---------------------------------------------------------------
+[2018/12/10 10:19:19 CST] [INFO] =====CodeAddress===eefa4805abfaa20dd4815ea47181b271fdfafabf
+[2018/12/10 10:19:21 CST] [INFO] TestInvokeSmartContract txHash:e30fa66d357191a168b1b763180e9153a451994db501d885d9988962aec6e60e
+[2018/12/10 10:19:28 CST] [INFO] notify: %!(EXTRA string=bffafafd71b28171a45e81d40da2faab0548faee)
+[2018/12/10 10:19:28 CST] [INFO] notify1: %!(EXTRA *common.NotifyEventInfo=&{eefa4805abfaa20dd4815ea47181b271fdfafabf bffafafd71b28171a45e81d40da2faab0548faee})
+[2018/12/10 10:19:28 CST] [EROR] TestGetStorageContext error
+[2018/12/10 10:19:28 CST] [INFO] TestCase:TestGetStorageContext failed.
+[2018/12/10 10:19:28 CST] [INFO] ---------------------------------------------------------------
+[2018/12/10 10:19:28 CST] [INFO] 
+[2018/12/10 10:19:28 CST] [INFO] ===============================================================
+[2018/12/10 10:19:28 CST] [INFO] 2. Start TestCase:TestContractDestroy
+[2018/12/10 10:19:28 CST] [INFO] ---------------------------------------------------------------

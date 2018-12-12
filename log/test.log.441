@@ -1,0 +1,13 @@
+[2018/12/05 14:25:37 CST] [INFO] ===============================================================
+[2018/12/05 14:25:37 CST] [INFO] -------Ontology Test Start Version:
+[2018/12/05 14:25:37 CST] [INFO] ===============================================================
+[2018/12/05 14:25:37 CST] [INFO] 
+[2018/12/05 14:25:40 CST] [EROR] GetBalance error:http post request:{"jsonrpc":"2.0","id":"2","method":"sendrawtransaction","params":["00d1c23c54aa0000000000000000000000000000000000000000000000000000000000000000000000004d147a7f5c8c364ef70e52904daf1a99a49450ccef0f0962616c616e63654f661400000000000000000000000000000000000000010068164f6e746f6c6f67792e4e61746976652e496e766f6b650000",1]} error:Post http://localhost:20336: dial tcp [::1]:20336: connectex: No connection could be made because the target machine actively refused it.
+[2018/12/05 14:25:40 CST] [INFO] Test Stop.
+[2018/12/05 14:25:40 CST] [INFO] ===============================================================
+[2018/12/05 14:25:40 CST] [INFO] Ontology Test Finish Total:2 Success:0 Failed:0 Skip:2 TimeCost:2.37 s.
+[2018/12/05 14:25:40 CST] [INFO] ---------------------------------------------------------------
+[2018/12/05 14:25:40 CST] [INFO] Skip list:
+[2018/12/05 14:25:40 CST] [INFO] 1.	TestGetCurrentBlockHeight
+[2018/12/05 14:25:40 CST] [INFO] 2.	TestGetCurrentBlockHash
+[2018/12/05 14:25:40 CST] [INFO] ===============================================================

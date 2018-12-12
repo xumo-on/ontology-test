@@ -1,0 +1,29 @@
+[2018/12/06 10:42:41 CST] [INFO] ===============================================================
+[2018/12/06 10:42:41 CST] [INFO] -------Ontology Test Start Version:v1.5.2
+[2018/12/06 10:42:41 CST] [INFO] ===============================================================
+[2018/12/06 10:42:41 CST] [INFO] 
+[2018/12/06 10:42:41 CST] [INFO] Default account balance ont:989989880 ong:67893655389989799
+[2018/12/06 10:42:41 CST] [INFO] ===============================================================
+[2018/12/06 10:42:41 CST] [INFO] 1. Start TestCase:TestGetCurrentBlockHeight
+[2018/12/06 10:42:41 CST] [INFO] ---------------------------------------------------------------
+[2018/12/06 10:42:41 CST] [INFO] SdkGetBlockHeight:%!(EXTRA uint32=7877)
+[2018/12/06 10:42:41 CST] [INFO] =====CodeAddress===50b967a824473232bbbe4e568d5a6f142988c1f6
+[2018/12/06 10:42:53 CST] [INFO] ===============================================================
+[2018/12/06 10:42:53 CST] [INFO] Ontology Test Finish Total:14 Success:0 Failed:0 Skip:14 TimeCost:12.74 s.
+[2018/12/06 10:42:53 CST] [INFO] ---------------------------------------------------------------
+[2018/12/06 10:42:53 CST] [INFO] Skip list:
+[2018/12/06 10:42:53 CST] [INFO] 1.	TestGetCurrentBlockHeight
+[2018/12/06 10:42:53 CST] [INFO] 2.	TestGetCurrentBlockHash
+[2018/12/06 10:42:53 CST] [INFO] 3.	TestGetUsage
+[2018/12/06 10:42:53 CST] [INFO] 4.	TestGetData
+[2018/12/06 10:42:53 CST] [INFO] 5.	TestGetScript
+[2018/12/06 10:42:53 CST] [INFO] 6.	TestCreate
+[2018/12/06 10:42:53 CST] [INFO] 7.	TestMigrate
+[2018/12/06 10:42:53 CST] [INFO] 8.	TestGetVersion
+[2018/12/06 10:42:53 CST] [INFO] 9.	TestGetMerkleRoot
+[2018/12/06 10:42:53 CST] [INFO] 10.	TestGetConsensusData
+[2018/12/06 10:42:53 CST] [INFO] 11.	TestGetNextConsensus
+[2018/12/06 10:42:53 CST] [INFO] 12.	TestBase58ToAddress
+[2018/12/06 10:42:53 CST] [INFO] 13.	TestAddressToBase58
+[2018/12/06 10:42:53 CST] [INFO] 14.	TestGetRandomHash
+[2018/12/06 10:42:53 CST] [INFO] ===============================================================
