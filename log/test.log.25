@@ -1,0 +1,21 @@
+[2018/12/12 15:50:56 CST] [INFO] ===============================================================
+[2018/12/12 15:50:56 CST] [INFO] -------Ontology Test Start Version:v1.5.2
+[2018/12/12 15:50:56 CST] [INFO] ===============================================================
+[2018/12/12 15:50:56 CST] [INFO] 
+[2018/12/12 15:50:56 CST] [INFO] Default account balance ont:789989770 ong:67888055659087876
+[2018/12/12 15:50:56 CST] [INFO] ===============================================================
+[2018/12/12 15:50:56 CST] [INFO] 1. Start TestCase:TestInvoke
+[2018/12/12 15:50:56 CST] [INFO] ---------------------------------------------------------------
+[2018/12/12 15:50:56 CST] [INFO] =====CodeAddress===28190aeaacf091ad064d83837236bec2a2203ca9
+[2018/12/12 15:51:06 CST] [EROR] TestDomainSmartContract InvokeNeoVMSmartContract error: JsonRpcResponse error code:-1 desc:INTERNAL ERROR, ErrUnknown result:"[NeoVmService] service system call error!: [SystemCall] service execute error!: [Invoke] Native serivce function execute error!: [OngTransfer] Transfers deserialize error!: [Common]: AddressParseFromBytes err, len != 20"
+[2018/12/12 15:51:18 CST] [INFO] balance:%!(EXTRA uint64=0)
+[2018/12/12 15:51:18 CST] [INFO] balance:%!(EXTRA uint64=0)
+[2018/12/12 15:51:18 CST] [INFO] TestCase:TestInvoke success.
+[2018/12/12 15:51:18 CST] [INFO] ---------------------------------------------------------------
+[2018/12/12 15:51:18 CST] [INFO] 
+[2018/12/12 15:51:18 CST] [INFO] ===============================================================
+[2018/12/12 15:51:18 CST] [INFO] Ontology Test Finish Total:1 Success:1 Failed:0 Skip:0 TimeCost:22.70 s.
+[2018/12/12 15:51:18 CST] [INFO] ---------------------------------------------------------------
+[2018/12/12 15:51:18 CST] [INFO] Success list:
+[2018/12/12 15:51:18 CST] [INFO] 1.TestInvoke
+[2018/12/12 15:51:18 CST] [INFO] ===============================================================

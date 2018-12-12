@@ -1,0 +1,21 @@
+[2018/12/05 13:20:42 CST] [INFO] ===============================================================
+[2018/12/05 13:20:42 CST] [INFO] -------Ontology Test Start Version:v1.5.2
+[2018/12/05 13:20:42 CST] [INFO] ===============================================================
+[2018/12/05 13:20:42 CST] [INFO] 
+[2018/12/05 13:20:42 CST] [WARN] Default Account balance = 0 
+[2018/12/05 13:20:42 CST] [INFO] ===============================================================
+[2018/12/05 13:20:42 CST] [INFO] 1. Start TestCase:BlockHeight
+[2018/12/05 13:20:42 CST] [INFO] ---------------------------------------------------------------
+[2018/12/05 13:20:42 CST] [INFO] SdkGetBlockHeight:%!(EXTRA uint32=4980)
+[2018/12/05 13:20:42 CST] [INFO] =====CodeAddress===50b967a824473232bbbe4e568d5a6f142988c1f6
+[2018/12/05 13:20:50 CST] [INFO] ContractGetBlockHeight:75
+[2018/12/05 13:20:50 CST] [INFO] ContractGetBlockHeight:
+[2018/12/05 13:20:50 CST] [INFO] ContractGetBlockHeight:7513
+[2018/12/05 13:20:50 CST] [INFO] TestCase:BlockHeight success.
+[2018/12/05 13:20:50 CST] [INFO] ---------------------------------------------------------------
+[2018/12/05 13:20:50 CST] [INFO] 
+[2018/12/05 13:20:50 CST] [INFO] ===============================================================
+[2018/12/05 13:20:50 CST] [INFO] 2. Start TestCase:TestOperationAdd
+[2018/12/05 13:20:50 CST] [INFO] ---------------------------------------------------------------
+[2018/12/05 13:20:50 CST] [INFO] TestOperationAdd contact address:0860b720fa7a40312289ee94c6e0cadcc9251eed
+[2018/12/05 13:20:51 CST] [INFO] DeployContract TxHash:6d43e01b8c2c3946e287fda04c309a8d352f8979d2e2d8a85aeece7619243a8f

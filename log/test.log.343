@@ -1,0 +1,31 @@
+[2018/12/07 12:05:29 CST] [INFO] ===============================================================
+[2018/12/07 12:05:29 CST] [INFO] -------Ontology Test Start Version:v1.5.2
+[2018/12/07 12:05:29 CST] [INFO] ===============================================================
+[2018/12/07 12:05:29 CST] [INFO] 
+[2018/12/07 12:05:30 CST] [INFO] Default account balance ont:789989880 ong:67892424789989799
+[2018/12/07 12:05:30 CST] [INFO] ===============================================================
+[2018/12/07 12:05:30 CST] [INFO] 1. Start TestCase:TestGetHeight
+[2018/12/07 12:05:30 CST] [INFO] ---------------------------------------------------------------
+[2018/12/07 12:05:30 CST] [INFO] =====CodeAddress===123df5cba6769c742794e3aba15941269fc5bf09
+[2018/12/07 12:05:41 CST] [INFO] ContractGetBlockHeight:%!(EXTRA uint64=0)
+[2018/12/07 12:05:41 CST] [INFO] SdkGetBlockHeight:%!(EXTRA uint32=13601)
+[2018/12/07 12:05:41 CST] [INFO] TestCase:TestGetHeight success.
+[2018/12/07 12:05:41 CST] [INFO] ---------------------------------------------------------------
+[2018/12/07 12:05:41 CST] [INFO] 
+[2018/12/07 12:05:41 CST] [INFO] ===============================================================
+[2018/12/07 12:05:41 CST] [INFO] 2. Start TestCase:TestGetHeader
+[2018/12/07 12:05:41 CST] [INFO] ---------------------------------------------------------------
+[2018/12/07 12:05:41 CST] [INFO] =====CodeAddress===0000000000000000000000000000000000000000
+[2018/12/07 12:05:41 CST] [EROR] TestDomainSmartContract InvokeNeoVMSmartContract error: JsonRpcResponse error code:-1 desc:INTERNAL ERROR, ErrUnknown result:"[Appcall] pop contract address len != 20:676574486561646572"
+[2018/12/07 12:05:47 CST] [INFO] hash:%!(EXTRA uint64=0)
+[2018/12/07 12:05:47 CST] [INFO] header:%!(EXTRA uint64=0)
+[2018/12/07 12:05:47 CST] [INFO] TestCase:TestGetHeader success.
+[2018/12/07 12:05:47 CST] [INFO] ---------------------------------------------------------------
+[2018/12/07 12:05:47 CST] [INFO] 
+[2018/12/07 12:05:47 CST] [INFO] ===============================================================
+[2018/12/07 12:05:47 CST] [INFO] Ontology Test Finish Total:2 Success:2 Failed:0 Skip:0 TimeCost:18.03 s.
+[2018/12/07 12:05:47 CST] [INFO] ---------------------------------------------------------------
+[2018/12/07 12:05:47 CST] [INFO] Success list:
+[2018/12/07 12:05:47 CST] [INFO] 1.	TestGetHeight
+[2018/12/07 12:05:47 CST] [INFO] 2.	TestGetHeader
+[2018/12/07 12:05:47 CST] [INFO] ===============================================================

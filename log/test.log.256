@@ -1,0 +1,20 @@
+[2018/12/10 10:44:29 CST] [INFO] ===============================================================
+[2018/12/10 10:44:29 CST] [INFO] -------Ontology Test Start Version:v1.5.2
+[2018/12/10 10:44:29 CST] [INFO] ===============================================================
+[2018/12/10 10:44:29 CST] [INFO] 
+[2018/12/10 10:44:29 CST] [INFO] Default account balance ont:789989780 ong:67891539459989799
+[2018/12/10 10:44:29 CST] [INFO] ===============================================================
+[2018/12/10 10:44:29 CST] [INFO] 1. Start TestCase:TestContractDestroy
+[2018/12/10 10:44:29 CST] [INFO] ---------------------------------------------------------------
+[2018/12/10 10:44:46 CST] [INFO] TestContractDestroy start PrepareInvokeNeoVMContractWithRes
+[2018/12/10 10:44:46 CST] [INFO] TestContractDestroy PrepareInvokeNeoVMContractWithRes error:%!(EXTRA *errors.errorString=JsonRpcResponse error code:-1 desc:INTERNAL ERROR, ErrUnknown result:"[NeoVmService] service system call error!: [SystemCall] service execute error!: [Common]: AddressParseFromBytes err, len != 20")
+[2018/12/10 10:44:46 CST] [INFO] TestContractDestroy PrepareInvokeNeoVMContractWithRes error:%!(EXTRA *errors.errorString=JsonRpcResponse error code:47001 desc:SMARTCODE EXEC ERROR result:"[NeoVmService] service system call error!: [SystemCall] service execute error!: [Common]: AddressParseFromBytes err, len != 20")
+[2018/12/10 10:44:46 CST] [INFO] TestCase:TestContractDestroy success.
+[2018/12/10 10:44:46 CST] [INFO] ---------------------------------------------------------------
+[2018/12/10 10:44:46 CST] [INFO] 
+[2018/12/10 10:44:46 CST] [INFO] ===============================================================
+[2018/12/10 10:44:46 CST] [INFO] Ontology Test Finish Total:1 Success:1 Failed:0 Skip:0 TimeCost:16.89 s.
+[2018/12/10 10:44:46 CST] [INFO] ---------------------------------------------------------------
+[2018/12/10 10:44:46 CST] [INFO] Success list:
+[2018/12/10 10:44:46 CST] [INFO] 1.	TestContractDestroy
+[2018/12/10 10:44:46 CST] [INFO] ===============================================================

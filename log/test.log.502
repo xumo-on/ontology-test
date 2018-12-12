@@ -1,0 +1,21 @@
+[2018/12/04 18:03:09 CST] [INFO] ===============================================================
+[2018/12/04 18:03:09 CST] [INFO] -------Ontology Test Start Version:v1.5.2
+[2018/12/04 18:03:09 CST] [INFO] ===============================================================
+[2018/12/04 18:03:09 CST] [INFO] 
+[2018/12/04 18:03:10 CST] [WARN] Default Account balance = 0 
+[2018/12/04 18:03:10 CST] [INFO] ===============================================================
+[2018/12/04 18:03:10 CST] [INFO] 1. Start TestCase:BlockHeight
+[2018/12/04 18:03:10 CST] [INFO] ---------------------------------------------------------------
+[2018/12/04 18:03:10 CST] [INFO] SdkGetBlockHeight:%!(EXTRA uint32=2693)
+[2018/12/04 18:03:10 CST] [INFO] =====CodeAddress===13c17d01075a762ef4f6a578df05fab572c5d07a
+[2018/12/04 18:03:11 CST] [INFO] TestInvokeSmartContract txHash:2da69ae61b6c2c7249f3dcf015e30e4c76b2655a74d7de58a29ca84b13895fd9
+
+[2018/12/04 18:03:17 CST] [EROR] TestInvokeSmartContract AssertToString error: not equal:noGet
+[2018/12/04 18:03:17 CST] [INFO] TestCase:BlockHeight failed.
+[2018/12/04 18:03:17 CST] [INFO] ---------------------------------------------------------------
+[2018/12/04 18:03:17 CST] [INFO] 
+[2018/12/04 18:03:17 CST] [INFO] ===============================================================
+[2018/12/04 18:03:17 CST] [INFO] 2. Start TestCase:TestOperationAdd
+[2018/12/04 18:03:17 CST] [INFO] ---------------------------------------------------------------
+[2018/12/04 18:03:17 CST] [INFO] TestOperationAdd contact address:0860b720fa7a40312289ee94c6e0cadcc9251eed
+[2018/12/04 18:03:17 CST] [INFO] DeployContract TxHash:883833b1d1e83154a0149c371e6a208aa83e75d19964f1d9d22a2434f22d3af5

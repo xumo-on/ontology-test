@@ -1,0 +1,33 @@
+[2018/12/12 13:59:00 CST] [INFO] ===============================================================
+[2018/12/12 13:59:00 CST] [INFO] -------Ontology Test Start Version:v1.5.2
+[2018/12/12 13:59:00 CST] [INFO] ===============================================================
+[2018/12/12 13:59:00 CST] [INFO] 
+[2018/12/12 13:59:00 CST] [INFO] Default account balance ont:789989770 ong:67888877599821799
+[2018/12/12 13:59:00 CST] [INFO] ===============================================================
+[2018/12/12 13:59:00 CST] [INFO] 1. Start TestCase:TestGetScript
+[2018/12/12 13:59:00 CST] [INFO] ---------------------------------------------------------------
+[2018/12/12 13:59:00 CST] [INFO] =====CodeAddress===c86cbbc611b0ad376e78aa962ad39bd8e1262f56
+[2018/12/12 13:59:07 CST] [INFO] TestCase:TestGetScript success.
+[2018/12/12 13:59:07 CST] [INFO] ---------------------------------------------------------------
+[2018/12/12 13:59:07 CST] [INFO] 
+[2018/12/12 13:59:07 CST] [INFO] ===============================================================
+[2018/12/12 13:59:07 CST] [INFO] 2. Start TestCase:TestMigrate
+[2018/12/12 13:59:07 CST] [INFO] ---------------------------------------------------------------
+[2018/12/12 13:59:08 CST] [EROR] TestDomainSmartContract InvokeNeoVMSmartContract error: JsonRpcResponse error code:-1 desc:INTERNAL ERROR, ErrUnknown result:"[NeoVmService] service system call error!: [SystemCall] service execute error!: [ContractMigrate] contract invalid!: [Contract] Get contract d36aafb44a727284d1807dadb3c5cb9f7c30d241 error or contract exist!"
+[2018/12/12 13:59:14 CST] [INFO] ===============================================================
+[2018/12/12 13:59:14 CST] [INFO] Ontology Test Finish Total:10 Success:1 Failed:0 Skip:9 TimeCost:14.03 s.
+[2018/12/12 13:59:14 CST] [INFO] ---------------------------------------------------------------
+[2018/12/12 13:59:14 CST] [INFO] Success list:
+[2018/12/12 13:59:14 CST] [INFO] 1.TestGetScript
+[2018/12/12 13:59:14 CST] [INFO] ---------------------------------------------------------------
+[2018/12/12 13:59:14 CST] [INFO] Skip list:
+[2018/12/12 13:59:14 CST] [INFO] 1.	TestMigrate
+[2018/12/12 13:59:14 CST] [INFO] 2.	TestGetVersion
+[2018/12/12 13:59:14 CST] [INFO] 3.	TestGetMerkleRoot
+[2018/12/12 13:59:14 CST] [INFO] 4.	TestGetConsensusData
+[2018/12/12 13:59:14 CST] [INFO] 5.	TestGetNextConsensus
+[2018/12/12 13:59:14 CST] [INFO] 6.	TestBase58ToAddress
+[2018/12/12 13:59:14 CST] [INFO] 7.	TestAddressToBase58
+[2018/12/12 13:59:14 CST] [INFO] 8.	TestGetRandomHash
+[2018/12/12 13:59:14 CST] [INFO] 9.	TestGetType
+[2018/12/12 13:59:14 CST] [INFO] ===============================================================

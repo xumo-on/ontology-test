@@ -1,0 +1,21 @@
+[2018/12/04 17:58:54 CST] [INFO] ===============================================================
+[2018/12/04 17:58:54 CST] [INFO] -------Ontology Test Start Version:v1.5.2
+[2018/12/04 17:58:54 CST] [INFO] ===============================================================
+[2018/12/04 17:58:54 CST] [INFO] 
+[2018/12/04 17:58:54 CST] [WARN] Default Account balance = 0 
+[2018/12/04 17:58:54 CST] [INFO] ===============================================================
+[2018/12/04 17:58:54 CST] [INFO] 1. Start TestCase:BlockHeight
+[2018/12/04 17:58:54 CST] [INFO] ---------------------------------------------------------------
+[2018/12/04 17:58:54 CST] [INFO] SdkGetBlockHeight:%!(EXTRA uint32=2651)
+[2018/12/04 17:58:54 CST] [INFO] =====CodeAddress===0db001331cd2f1fff844dc730d134b940a59b154
+[2018/12/04 17:58:59 CST] [EROR] TestDomainSmartContract InvokeNeoVMSmartContract error: JsonRpcResponse error code:-1 desc:INTERNAL ERROR, ErrUnknown result:"[NeoVmService] vm execute error!: the count under the stack length"
+[2018/12/04 17:58:59 CST] [INFO] TestInvokeSmartContract txHash:0000000000000000000000000000000000000000000000000000000000000000
+
+[2018/12/04 17:59:05 CST] [INFO] TestCase:BlockHeight success.
+[2018/12/04 17:59:05 CST] [INFO] ---------------------------------------------------------------
+[2018/12/04 17:59:05 CST] [INFO] 
+[2018/12/04 17:59:05 CST] [INFO] ===============================================================
+[2018/12/04 17:59:05 CST] [INFO] 2. Start TestCase:TestOperationAdd
+[2018/12/04 17:59:05 CST] [INFO] ---------------------------------------------------------------
+[2018/12/04 17:59:05 CST] [INFO] TestOperationAdd contact address:0860b720fa7a40312289ee94c6e0cadcc9251eed
+[2018/12/04 17:59:05 CST] [INFO] DeployContract TxHash:297420a9155f77ee14c8a324836a7d3160aaf27126b90afb59b99728efce46d0

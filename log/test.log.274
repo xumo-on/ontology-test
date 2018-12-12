@@ -1,0 +1,32 @@
+[2018/12/10 10:10:12 CST] [INFO] ===============================================================
+[2018/12/10 10:10:12 CST] [INFO] -------Ontology Test Start Version:v1.5.2
+[2018/12/10 10:10:12 CST] [INFO] ===============================================================
+[2018/12/10 10:10:12 CST] [INFO] 
+[2018/12/10 10:10:13 CST] [INFO] Default account balance ont:789989780 ong:67891549479989799
+[2018/12/10 10:10:13 CST] [INFO] ===============================================================
+[2018/12/10 10:10:13 CST] [INFO] 1. Start TestCase:TestGetStorageContext
+[2018/12/10 10:10:13 CST] [INFO] ---------------------------------------------------------------
+[2018/12/10 10:10:13 CST] [INFO] =====CodeAddress===eefa4805abfaa20dd4815ea47181b271fdfafabf
+[2018/12/10 10:10:15 CST] [INFO] TestInvokeSmartContract txHash:9a744cb2883d8338e70282f59488d921796dca4aafc32aa784ea457ed4df8ef9
+[2018/12/10 10:10:21 CST] [INFO] notify: %!(EXTRA *common.NotifyEventInfo=&{eefa4805abfaa20dd4815ea47181b271fdfafabf bffafafd71b28171a45e81d40da2faab0548faee})
+[2018/12/10 10:10:21 CST] [INFO] notify1: %!(EXTRA *common.NotifyEventInfo=&{eefa4805abfaa20dd4815ea47181b271fdfafabf bffafafd71b28171a45e81d40da2faab0548faee})
+[2018/12/10 10:10:21 CST] [EROR] TestGetStorageContext error
+[2018/12/10 10:10:21 CST] [INFO] TestCase:TestGetStorageContext failed.
+[2018/12/10 10:10:21 CST] [INFO] ---------------------------------------------------------------
+[2018/12/10 10:10:21 CST] [INFO] 
+[2018/12/10 10:10:21 CST] [INFO] ===============================================================
+[2018/12/10 10:10:21 CST] [INFO] 2. Start TestCase:TestContractDestroy
+[2018/12/10 10:10:21 CST] [INFO] ---------------------------------------------------------------
+[2018/12/10 10:10:58 CST] [INFO] TestContractDestroy start PrepareInvokeNeoVMContractWithRes
+[2018/12/10 10:10:58 CST] [INFO] TestCase:TestContractDestroy success.
+[2018/12/10 10:10:58 CST] [INFO] ---------------------------------------------------------------
+[2018/12/10 10:10:58 CST] [INFO] 
+[2018/12/10 10:10:58 CST] [INFO] ===============================================================
+[2018/12/10 10:10:58 CST] [INFO] Ontology Test Finish Total:2 Success:1 Failed:1 Skip:0 TimeCost:45.25 s.
+[2018/12/10 10:10:58 CST] [INFO] ---------------------------------------------------------------
+[2018/12/10 10:10:58 CST] [INFO] Success list:
+[2018/12/10 10:10:58 CST] [INFO] 1.	TestContractDestroy
+[2018/12/10 10:10:58 CST] [INFO] ---------------------------------------------------------------
+[2018/12/10 10:10:58 CST] [INFO] Fail list:
+[2018/12/10 10:10:58 CST] [INFO] 1.	TestGetStorageContext
+[2018/12/10 10:10:58 CST] [INFO] ===============================================================

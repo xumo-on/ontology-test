@@ -1,0 +1,13 @@
+.idea/*
+idea/*
+temp/*
+build/
+*.patch
+*.log
+*.rej
+vendor/*
+*.iml
+ontology-test
+config_test.json
+wallet.dat
+main.exe 

@@ -1,0 +1,23 @@
+[2018/12/07 18:40:26 CST] [INFO] ===============================================================
+[2018/12/07 18:40:26 CST] [INFO] -------Ontology Test Start Version:v1.5.2
+[2018/12/07 18:40:26 CST] [INFO] ===============================================================
+[2018/12/07 18:40:26 CST] [INFO] 
+[2018/12/07 18:40:26 CST] [INFO] Default account balance ont:789989780 ong:67891549479989799
+[2018/12/07 18:40:26 CST] [INFO] ===============================================================
+[2018/12/07 18:40:26 CST] [INFO] 1. Start TestCase:TestGetStorageContext
+[2018/12/07 18:40:26 CST] [INFO] ---------------------------------------------------------------
+[2018/12/07 18:40:26 CST] [INFO] =====CodeAddress===eefa4805abfaa20dd4815ea47181b271fdfafabf
+[2018/12/07 18:40:30 CST] [INFO] TestInvokeSmartContract txHash:d12a02ad7c29f0af0eb72bbfaeff5874818115d445aaa3c9090119c24de268aa
+
+[2018/12/07 18:40:36 CST] [INFO] notify: &{ContractAddress:eefa4805abfaa20dd4815ea47181b271fdfafabf States:bffafafd71b28171a45e81d40da2faab0548faee}
+[2018/12/07 18:40:36 CST] [INFO] notify1: &{ContractAddress:eefa4805abfaa20dd4815ea47181b271fdfafabf States:bffafafd71b28171a45e81d40da2faab0548faee}
+[2018/12/07 18:40:36 CST] [EROR] TestGetStorageContext error
+[2018/12/07 18:40:36 CST] [INFO] TestCase:TestGetStorageContext failed.
+[2018/12/07 18:40:36 CST] [INFO] ---------------------------------------------------------------
+[2018/12/07 18:40:36 CST] [INFO] 
+[2018/12/07 18:40:36 CST] [INFO] ===============================================================
+[2018/12/07 18:40:36 CST] [INFO] Ontology Test Finish Total:1 Success:0 Failed:1 Skip:0 TimeCost:9.66 s.
+[2018/12/07 18:40:36 CST] [INFO] ---------------------------------------------------------------
+[2018/12/07 18:40:36 CST] [INFO] Fail list:
+[2018/12/07 18:40:36 CST] [INFO] 1.	TestGetStorageContext
+[2018/12/07 18:40:36 CST] [INFO] ===============================================================

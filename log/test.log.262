@@ -1,0 +1,19 @@
+[2018/12/10 10:33:34 CST] [INFO] ===============================================================
+[2018/12/10 10:33:34 CST] [INFO] -------Ontology Test Start Version:v1.5.2
+[2018/12/10 10:33:34 CST] [INFO] ===============================================================
+[2018/12/10 10:33:34 CST] [INFO] 
+[2018/12/10 10:33:34 CST] [INFO] Default account balance ont:789989780 ong:67891539459989799
+[2018/12/10 10:33:34 CST] [INFO] ===============================================================
+[2018/12/10 10:33:34 CST] [INFO] 1. Start TestCase:TestContractDestroy
+[2018/12/10 10:33:34 CST] [INFO] ---------------------------------------------------------------
+[2018/12/10 10:33:51 CST] [INFO] TestContractDestroy start PrepareInvokeNeoVMContractWithRes
+[2018/12/10 10:33:51 CST] [EROR] TestContractDestroy PrepareInvokeNeoVMContractWithRes error:%!s(<nil>)
+[2018/12/10 10:33:51 CST] [INFO] TestCase:TestContractDestroy failed.
+[2018/12/10 10:33:51 CST] [INFO] ---------------------------------------------------------------
+[2018/12/10 10:33:51 CST] [INFO] 
+[2018/12/10 10:33:51 CST] [INFO] ===============================================================
+[2018/12/10 10:33:51 CST] [INFO] Ontology Test Finish Total:1 Success:0 Failed:1 Skip:0 TimeCost:17.75 s.
+[2018/12/10 10:33:51 CST] [INFO] ---------------------------------------------------------------
+[2018/12/10 10:33:51 CST] [INFO] Fail list:
+[2018/12/10 10:33:51 CST] [INFO] 1.	TestContractDestroy
+[2018/12/10 10:33:51 CST] [INFO] ===============================================================
