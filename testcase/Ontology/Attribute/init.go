@@ -1,6 +1,6 @@
 package Attribute
 
-import "github.com/ontio/ontology-test/testframework"
+import "github.com/xumo-on/ontology-test/testframework"
 
 func TestAttribute() {
 	testframework.TFramework.RegTestCase("TestGetUsage", TestGetUsage)

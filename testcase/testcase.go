@@ -18,9 +18,9 @@
 package testcase
 
 import (
-	"github.com/ontio/ontology-test/testcase/Ontology"
-	"github.com/ontio/ontology-test/testcase/System"
-	"github.com/ontio/ontology-test/testframework"
+	"github.com/xumo-on/ontology-test/testcase/Ontology"
+	"github.com/xumo-on/ontology-test/testcase/System"
+	"github.com/xumo-on/ontology-test/testframework"
 	"math"
 	"time"
 )

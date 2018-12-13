@@ -1,6 +1,6 @@
 package Contract
 
-import "github.com/ontio/ontology-test/testframework"
+import "github.com/xumo-on/ontology-test/testframework"
 
 func TestContract() {
 	testframework.TFramework.RegTestCase("TestGetScript", TestGetScript)

@@ -1,7 +1,7 @@
 package Attribute
 
 import (
-	"github.com/ontio/ontology-test/testframework"
+	"github.com/xumo-on/ontology-test/testframework"
 )
 
 func TestGetUsage(ctx *testframework.TestFrameworkContext) bool {
