@@ -1,6 +1,6 @@
 package Action
 
-import "github.com/xumo-on/ontology-test/testframework"
+import "github.com/ontio/ontology-test/testframework"
 
 func TestAction() {
 	testframework.TFramework.RegTestCase("TestRegisterAction", TestRegisterAction)

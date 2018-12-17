@@ -81,7 +81,7 @@ package Blockchain
 import (
 	"encoding/hex"
 	"github.com/ontio/ontology-go-sdk/utils"
-	"github.com/xumo-on/ontology-test/testframework"
+	"github.com/ontio/ontology-test/testframework"
 	"github.com/ontio/ontology/common"
 	"strconv"
 	"strings"

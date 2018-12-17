@@ -18,9 +18,8 @@
 package testcase
 
 import (
-	"github.com/xumo-on/ontology-test/testcase/Ontology"
-	"github.com/xumo-on/ontology-test/testcase/System"
-	"github.com/xumo-on/ontology-test/testframework"
+	"github.com/ontio/ontology-test/testcase/Testbet"
+	"github.com/ontio/ontology-test/testframework"
 	"math"
 	"time"
 )
@@ -28,8 +27,9 @@ import (
 //TestCase list
 func init() {
 	testframework.TFramework.SetBeforeCallback(BeforeTestCase)
-	Ontology.TestOntology()
-	System.TestSystem()
+	//Ontology.TestOntology()
+	//System.TestSystem()
+	Testbet.Testb()
 }
 
 func BeforeTestCase(ctx *testframework.TestFrameworkContext) {

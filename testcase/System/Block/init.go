@@ -1,6 +1,6 @@
 package Block
 
-import "github.com/xumo-on/ontology-test/testframework"
+import "github.com/ontio/ontology-test/testframework"
 
 func TestBlock() {
 	testframework.TFramework.RegTestCase("TestGetTransactionCount", TestGetTransactionCount)

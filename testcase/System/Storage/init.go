@@ -1,6 +1,6 @@
 package Storage
 
-import "github.com/xumo-on/ontology-test/testframework"
+import "github.com/ontio/ontology-test/testframework"
 
 func TestStorage() {
 	testframework.TFramework.RegTestCase("TestGetContext", TestGetContext)

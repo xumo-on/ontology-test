@@ -24,7 +24,7 @@ import (
 	"fmt"
 	log4 "github.com/alecthomas/log4go"
 	sdk "github.com/ontio/ontology-go-sdk"
-	"github.com/xumo-on/ontology-test/common"
+	"github.com/ontio/ontology-test/common"
 	"math/big"
 )
 

@@ -1,6 +1,6 @@
 package Header
 
-import "github.com/xumo-on/ontology-test/testframework"
+import "github.com/ontio/ontology-test/testframework"
 
 func TestHeader() {
 	testframework.TFramework.RegTestCase("TestGetVersion", TestGetVersion)

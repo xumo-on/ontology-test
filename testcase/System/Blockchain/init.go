@@ -1,6 +1,6 @@
 package Blockchain
 
-import "github.com/xumo-on/ontology-test/testframework"
+import "github.com/ontio/ontology-test/testframework"
 
 func TestBlockchain() {
 	testframework.TFramework.RegTestCase("TestGetHeight", TestGetHeight)

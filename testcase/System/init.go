@@ -1,17 +1,17 @@
 package System
 
 import (
-	"github.com/xumo-on/ontology-test/testcase/System/Action"
-	"github.com/xumo-on/ontology-test/testcase/System/App"
-	"github.com/xumo-on/ontology-test/testcase/System/Block"
-	"github.com/xumo-on/ontology-test/testcase/System/Blockchain"
-	"github.com/xumo-on/ontology-test/testcase/System/Contract"
-	"github.com/xumo-on/ontology-test/testcase/System/ExecutionEngine"
-	"github.com/xumo-on/ontology-test/testcase/System/Header"
-	"github.com/xumo-on/ontology-test/testcase/System/Runtime"
-	"github.com/xumo-on/ontology-test/testcase/System/Storage"
-	"github.com/xumo-on/ontology-test/testcase/System/StorageContext"
-	"github.com/xumo-on/ontology-test/testcase/System/Transaction"
+	"github.com/ontio/ontology-test/testcase/System/Action"
+	"github.com/ontio/ontology-test/testcase/System/App"
+	"github.com/ontio/ontology-test/testcase/System/Block"
+	"github.com/ontio/ontology-test/testcase/System/Blockchain"
+	"github.com/ontio/ontology-test/testcase/System/Contract"
+	"github.com/ontio/ontology-test/testcase/System/ExecutionEngine"
+	"github.com/ontio/ontology-test/testcase/System/Header"
+	"github.com/ontio/ontology-test/testcase/System/Runtime"
+	"github.com/ontio/ontology-test/testcase/System/Storage"
+	"github.com/ontio/ontology-test/testcase/System/StorageContext"
+	"github.com/ontio/ontology-test/testcase/System/Transaction"
 )
 
 func TestSystem() {

@@ -1,6 +1,6 @@
 package Runtime
 
-import "github.com/xumo-on/ontology-test/testframework"
+import "github.com/ontio/ontology-test/testframework"
 
 func TestRuntime() {
 	testframework.TFramework.RegTestCase("TestBase58ToAddress", TestBase58ToAddress)
