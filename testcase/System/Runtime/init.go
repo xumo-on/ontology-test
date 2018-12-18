@@ -1,6 +1,6 @@
 package Runtime
 
-import "github.com/ontio/ontology-test/testframework"
+import "github.com/xumo-on/ontology-test/testframework"
 
 func TestRuntime() {
 	testframework.TFramework.RegTestCase("TestCheckWitness", TestCheckWitness)

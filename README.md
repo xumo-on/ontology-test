@@ -20,6 +20,8 @@ Then start to run.
 
 Notice:
 
-​	1.If you want to use your own wallet, please change the fromAccount in contract (In testcase\Ontology\Native\native.go) and copy the new code to function.
+​	1.Every time this program is executed, the migrateCode have to be replaced.Any contract undeployed is correct (In testcase\Ontology\Contract\contract.go), because you cannot migrate the contract to a existing contract.
 
-​	2.Only test noe-boa.
+​	2.If you want to use your own wallet, please change the fromAccount in contract (In testcase\Ontology\Native\native.go) and copy the new code to function.
+
+​	3.Only test noe-boa.

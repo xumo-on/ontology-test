@@ -20,8 +20,9 @@ def checkName():
 package App
 
 import (
+	"encoding/hex"
 	"github.com/ontio/ontology-go-sdk/utils"
-	"github.com/ontio/ontology-test/testframework"
+	"github.com/xumo-on/ontology-test/testframework"
 	"time"
 )
 
@@ -87,37 +88,15 @@ func TestRegisterAppCall(ctx *testframework.TestFrameworkContext) bool {
 		return false
 	}
 
-	//InvokeContract
-	txHash, err := ctx.Ont.NeoVM.InvokeNeoVMContract(ctx.GetGasPrice(), ctx.GetGasLimit(),
-		signer,
-		codeAddress,
-		[]interface{}{"checkName", []interface{}{[]byte("checkName")}})
+	//PreExecInvokeContract
+	value, err := ctx.Ont.NeoVM.PreExecInvokeNeoVMContract(codeAddress, []interface{}{"checkName", []interface{}{}})
 	if err != nil {
-		ctx.LogError("TestDomainSmartContract InvokeNeoVMSmartContract error: %s", err)
+		ctx.LogError("TestDomainSmartContract PreExecInvokeSmartContract error: %s", err)
 		return false
 	}
+	bValue, err := value.Result.ToByteArray()
 
-	//WaitForGenerateBlock
-	_, err = ctx.Ont.WaitForGenerateBlock(30*time.Second, 1)
-	if err != nil {
-		ctx.LogError("TestInvokeSmartContract WaitForGenerateBlock error:%s", err)
-		return false
-	}
-
-	//GetEventOfContract
-	events, err := ctx.Ont.GetSmartContractEvent(txHash.ToHexString())
-	if err != nil {
-		ctx.LogError("TestInvokeSmartContract GetSmartContractEvent error:%s", err)
-		return false
-	}
-	if events.State == 0 {
-		ctx.LogError("TestInvokeSmartContract failed invoked exec state return 0")
-		return false
-	}
-
-	name := events.Notify[0].States.(string)
-
-	if name != "4d79546f6b656e" {
+	if hex.EncodeToString(bValue) != "4d79546f6b656e" {
 		ctx.LogError("TestRegisterAppCall error")
 		return false
 	}

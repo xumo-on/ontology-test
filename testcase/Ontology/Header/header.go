@@ -49,19 +49,20 @@ def getNextConsensus():
 package Header
 
 import (
+	"encoding/hex"
 	"github.com/ontio/ontology-go-sdk/utils"
-	"github.com/ontio/ontology-test/testframework"
 	"github.com/ontio/ontology/common"
+	"github.com/xumo-on/ontology-test/testframework"
 	"strconv"
 	"strings"
 	"time"
 )
 
-var	codeAddress common.Address
+var codeAddress common.Address
 
 func TestGetVersion(ctx *testframework.TestFrameworkContext) bool {
 	//DeployContract
-	code := "5dc56b6a00527ac46a51527ac46a00c30a67657456657273696f6e9c6409006590026c7566616a00c30d6765744d65726b6c65526f6f749c64090065bd016c7566616a00c310676574436f6e73656e737573446174619c64090065e4006c7566616a00c3106765744e657874436f6e73656e7375739c640900650b006c756661006c756657c56b68244f6e746f6c6f67792e52756e74696d652e47657443757272656e74426c6f636b48617368616a00527ac46a00c3681b53797374656d2e426c6f636b636861696e2e476574486561646572616a51527ac46a51c368204f6e746f6c6f67792e4865616465722e4765744e657874436f6e73656e737573616a52527ac46a00c3681553797374656d2e52756e74696d652e4e6f74696679616a52c3681553797374656d2e52756e74696d652e4e6f7469667961006c756658c56b68244f6e746f6c6f67792e52756e74696d652e47657443757272656e74426c6f636b48617368616a00527ac46a00c3681b53797374656d2e426c6f636b636861696e2e476574486561646572616a51527ac46a51c368204f6e746f6c6f67792e4865616465722e476574436f6e73656e73757344617461616a52527ac46a00c3681553797374656d2e52756e74696d652e4e6f74696679616a52c3681553797374656d2e52756e74696d652e4e6f7469667961516c756658c56b68244f6e746f6c6f67792e52756e74696d652e47657443757272656e74426c6f636b48617368616a00527ac46a00c3681b53797374656d2e426c6f636b636861696e2e476574486561646572616a51527ac46a51c3681d4f6e746f6c6f67792e4865616465722e4765744d65726b6c65526f6f74616a52527ac46a00c3681553797374656d2e52756e74696d652e4e6f74696679616a52c3681553797374656d2e52756e74696d652e4e6f7469667961516c756657c56b68244f6e746f6c6f67792e52756e74696d652e47657443757272656e74426c6f636b48617368616a00527ac46a00c3681b53797374656d2e426c6f636b636861696e2e476574486561646572616a51527ac46a51c3681a4f6e746f6c6f67792e4865616465722e47657456657273696f6e616a52527ac46a52c3681553797374656d2e52756e74696d652e4e6f7469667961516c7566"
+	code := "5fc56b6a00527ac46a51527ac46a00c30a67657456657273696f6e9c6409006566026c7566616a00c30d6765744d65726b6c65526f6f749c64090065ac016c7566616a00c310676574436f6e73656e737573446174619c6409006507016c7566616a00c3106765744e657874436f6e73656e7375739c6409006562006c7566616a00c31367657443757272656e74426c6f636b486173689c640900650b006c756661006c756654c56b68244f6e746f6c6f67792e52756e74696d652e47657443757272656e74426c6f636b48617368616a00527ac46a00c36c756656c56b68244f6e746f6c6f67792e52756e74696d652e47657443757272656e74426c6f636b48617368616a00527ac46a00c3681b53797374656d2e426c6f636b636861696e2e476574486561646572616a51527ac46a51c368204f6e746f6c6f67792e4865616465722e4765744e657874436f6e73656e737573616a52527ac46a52c36c756656c56b68244f6e746f6c6f67792e52756e74696d652e47657443757272656e74426c6f636b48617368616a00527ac46a00c3681b53797374656d2e426c6f636b636861696e2e476574486561646572616a51527ac46a51c368204f6e746f6c6f67792e4865616465722e476574436f6e73656e73757344617461616a52527ac46a52c36c756657c56b68244f6e746f6c6f67792e52756e74696d652e47657443757272656e74426c6f636b48617368616a00527ac46a00c3681b53797374656d2e426c6f636b636861696e2e476574486561646572616a51527ac46a51c3681d4f6e746f6c6f67792e4865616465722e4765744d65726b6c65526f6f74616a52527ac46a52c3681553797374656d2e52756e74696d652e4e6f74696679616a52c36c756656c56b68244f6e746f6c6f67792e52756e74696d652e47657443757272656e74426c6f636b48617368616a00527ac46a00c3681b53797374656d2e426c6f636b636861696e2e476574486561646572616a51527ac46a51c3681a4f6e746f6c6f67792e4865616465722e47657456657273696f6e616a52527ac46a52c36c7566"
 	codeAddress, _ = utils.GetContractAddress(code)
 
 	ctx.LogInfo("=====CodeAddress===%s", codeAddress.ToHexString())
@@ -93,36 +94,21 @@ func TestGetVersion(ctx *testframework.TestFrameworkContext) bool {
 		return false
 	}
 
-	//InvokeContract
-	txHash, err := ctx.Ont.NeoVM.InvokeNeoVMContract(ctx.GetGasPrice(), ctx.GetGasLimit(),
-		signer,
-		codeAddress,
-		[]interface{}{"getVersion", []interface{}{[]byte("getVersion")}})
+	//PreExecInvokeContract
+	txHash, err := ctx.Ont.NeoVM.PreExecInvokeNeoVMContract(codeAddress, []interface{}{"getVersion", []interface{}{"getVersion"}})
 	if err != nil {
 		ctx.LogError("TestDomainSmartContract InvokeNeoVMSmartContract error: %s", err)
 		return false
 	}
 
-	//WaitForGenerateBlock
-	_, err = ctx.Ont.WaitForGenerateBlock(30*time.Second, 1)
+	//GetResult
+	result, err := txHash.Result.ToByteArray()
 	if err != nil {
-		ctx.LogError("TestInvokeSmartContract WaitForGenerateBlock error:%s", err)
+		ctx.LogError("TestDomainSmartContract GetResult error: %s", err)
 		return false
 	}
 
-	//GetEventOfContract
-	events, err := ctx.Ont.GetSmartContractEvent(txHash.ToHexString())
-	if err != nil {
-		ctx.LogError("TestInvokeSmartContract GetSmartContractEvent error:%s", err)
-		return false
-	}
-	if events.State == 0 {
-		ctx.LogError("TestInvokeSmartContract failed invoked exec state return 0")
-		return false
-	}
-
-	notify := events.Notify[0].States.(string)
-	if notify != "00" {
+	if hex.EncodeToString(result) != "00" {
 		ctx.LogError("TestGetVersion error")
 		return false
 	}
@@ -131,46 +117,46 @@ func TestGetVersion(ctx *testframework.TestFrameworkContext) bool {
 }
 
 func TestGetMerkleRoot(ctx *testframework.TestFrameworkContext) bool {
-
-	signer, err := ctx.GetDefaultAccount()
-	if err != nil {
-		ctx.LogError("TestDomainSmartContract GetDefaultAccount error:%s", err)
-		return false
-	}
-
-	//InvokeContract
-	txHash, err := ctx.Ont.NeoVM.InvokeNeoVMContract(ctx.GetGasPrice(), ctx.GetGasLimit(),
-		signer,
-		codeAddress,
-		[]interface{}{"getMerkleRoot", []interface{}{[]byte("getMerkleRoot")}})
+	//PreExecInvokeContract
+	txHash, err := ctx.Ont.NeoVM.PreExecInvokeNeoVMContract(codeAddress, []interface{}{"getMerkleRoot", []interface{}{"getMerkleRoot"}})
 	if err != nil {
 		ctx.LogError("TestDomainSmartContract InvokeNeoVMSmartContract error: %s", err)
 		return false
 	}
 
-	//WaitForGenerateBlock
-	_, err = ctx.Ont.WaitForGenerateBlock(30*time.Second, 1)
+	//GetResult
+	result, err := txHash.Result.ToByteArray()
 	if err != nil {
-		ctx.LogError("TestInvokeSmartContract WaitForGenerateBlock error:%s", err)
+		ctx.LogError("TestDomainSmartContract GetResult error: %s", err)
 		return false
 	}
 
-	//GetEventOfContract
-	events, err := ctx.Ont.GetSmartContractEvent(txHash.ToHexString())
-	if err != nil {
-		ctx.LogError("TestInvokeSmartContract GetSmartContractEvent error:%s", err)
-		return false
-	}
-	if events.State == 0 {
-		ctx.LogError("TestInvokeSmartContract failed invoked exec state return 0")
-		return false
-	}
-
-	Hash := events.Notify[0].States.(string)
-	count := strings.Count(Hash, "") - 1
+	merkleRoot := hex.EncodeToString(result)
+	count := strings.Count(merkleRoot, "") - 1
 	s := []string{}
 	for i := count; i > 0; i -= 2 {
-		s = append(s, Hash[i-2:i])
+		s = append(s, merkleRoot[i-2:i])
+	}
+	merkleRoot = strings.Join(s, "")
+
+	//PreExecInvokeContract
+	txHash, err = ctx.Ont.NeoVM.PreExecInvokeNeoVMContract(codeAddress, []interface{}{"getCurrentBlockHash", []interface{}{"getCurrentBlockHash"}})
+	if err != nil {
+		ctx.LogError("TestDomainSmartContract InvokeNeoVMSmartContract error: %s", err)
+		return false
+	}
+
+	//GetResult
+	Hash, err := txHash.Result.ToByteArray()
+	if err != nil {
+		ctx.LogError("TestDomainSmartContract GetResult error: %s", err)
+		return false
+	}
+
+	count = strings.Count(hex.EncodeToString(Hash), "") - 1
+	s = []string{}
+	for i := count; i > 0; i -= 2 {
+		s = append(s, hex.EncodeToString(Hash)[i-2:i])
 	}
 	Hash1 := strings.Join(s, "")
 	block, err := ctx.Ont.GetBlockByHash(Hash1)
@@ -178,17 +164,10 @@ func TestGetMerkleRoot(ctx *testframework.TestFrameworkContext) bool {
 		ctx.LogError("GetBlockByHash error:%s", err)
 		return false
 	}
-	txRoot := block.Header.TransactionsRoot.ToHexString()
 
-	merkleRoot := events.Notify[1].States.(string)
-	count = strings.Count(merkleRoot, "") - 1
-	s = []string{}
-	for i := count; i > 0; i -= 2 {
-		s = append(s, merkleRoot[i-2:i])
-	}
-	merkleRoot1 := strings.Join(s, "")
+	merkleRoot1 := block.Header.TransactionsRoot.ToHexString()
 
-	if txRoot != merkleRoot1 {
+	if merkleRoot != merkleRoot1 {
 		ctx.LogError("TestGetMerkleRoot error")
 		return false
 	}
@@ -197,46 +176,51 @@ func TestGetMerkleRoot(ctx *testframework.TestFrameworkContext) bool {
 }
 
 func TestGetConsensusData(ctx *testframework.TestFrameworkContext) bool {
-
-	signer, err := ctx.GetDefaultAccount()
-	if err != nil {
-		ctx.LogError("TestDomainSmartContract GetDefaultAccount error:%s", err)
-		return false
-	}
-
-	//InvokeContract
-	txHash, err := ctx.Ont.NeoVM.InvokeNeoVMContract(ctx.GetGasPrice(), ctx.GetGasLimit(),
-		signer,
-		codeAddress,
-		[]interface{}{"getConsensusData", []interface{}{[]byte("getConsensusData")}})
+	//PreExecInvokeContract
+	txHash, err := ctx.Ont.NeoVM.PreExecInvokeNeoVMContract(codeAddress, []interface{}{"getConsensusData", []interface{}{"getConsensusData"}})
 	if err != nil {
 		ctx.LogError("TestDomainSmartContract InvokeNeoVMSmartContract error: %s", err)
 		return false
 	}
 
-	//WaitForGenerateBlock
-	_, err = ctx.Ont.WaitForGenerateBlock(30*time.Second, 1)
+	//GetResult
+	result, err := txHash.Result.ToByteArray()
 	if err != nil {
-		ctx.LogError("TestInvokeSmartContract WaitForGenerateBlock error:%s", err)
+		ctx.LogError("TestDomainSmartContract GetResult error: %s", err)
 		return false
 	}
 
-	//GetEventOfContract
-	events, err := ctx.Ont.GetSmartContractEvent(txHash.ToHexString())
-	if err != nil {
-		ctx.LogError("TestInvokeSmartContract GetSmartContractEvent error:%s", err)
-		return false
-	}
-	if events.State == 0 {
-		ctx.LogError("TestInvokeSmartContract failed invoked exec state return 0")
-		return false
-	}
-
-	Hash := events.Notify[0].States.(string)
-	count := strings.Count(Hash, "") - 1
+	ConsensusData := hex.EncodeToString(result)
+	count := strings.Count(ConsensusData, "") - 1
 	s := []string{}
 	for i := count; i > 0; i -= 2 {
-		s = append(s, Hash[i-2:i])
+		s = append(s, ConsensusData[i-2:i])
+	}
+	ConsensusData = strings.Join(s, "")
+	UConsensusData, err := strconv.ParseUint(ConsensusData, 16, 64)
+	if err != nil {
+		ctx.LogError("ConsensusData to Uint error: %s", err)
+		return false
+	}
+
+	//PreExecInvokeContract
+	txHash, err = ctx.Ont.NeoVM.PreExecInvokeNeoVMContract(codeAddress, []interface{}{"getCurrentBlockHash", []interface{}{"getCurrentBlockHash"}})
+	if err != nil {
+		ctx.LogError("TestDomainSmartContract InvokeNeoVMSmartContract error: %s", err)
+		return false
+	}
+
+	//GetResult
+	Hash, err := txHash.Result.ToByteArray()
+	if err != nil {
+		ctx.LogError("TestDomainSmartContract GetResult error: %s", err)
+		return false
+	}
+
+	count = strings.Count(hex.EncodeToString(Hash), "") - 1
+	s = []string{}
+	for i := count; i > 0; i -= 2 {
+		s = append(s, hex.EncodeToString(Hash)[i-2:i])
 	}
 	Hash1 := strings.Join(s, "")
 	block, err := ctx.Ont.GetBlockByHash(Hash1)
@@ -244,21 +228,10 @@ func TestGetConsensusData(ctx *testframework.TestFrameworkContext) bool {
 		ctx.LogError("GetBlockByHash error:%s", err)
 		return false
 	}
-	cd := block.Header.ConsensusData
 
-	ConsensusData := events.Notify[1].States.(string)
-	count = strings.Count(ConsensusData, "") - 1
-	s = []string{}
-	for i := count; i > 0; i -= 2 {
-		s = append(s, ConsensusData[i-2:i])
-	}
-	ConsensusData1, err := strconv.ParseUint(strings.Join(s, ""), 16, 64)
-	if err != nil {
-		ctx.LogError("ConsensusDataToUint error:%s", err)
-		return false
-	}
+	ConsensusData1 := block.Header.ConsensusData
 
-	if cd != ConsensusData1 {
+	if ConsensusData1 != UConsensusData {
 		ctx.LogError("TestGetMerkleRoot error")
 		return false
 	}
@@ -267,48 +240,49 @@ func TestGetConsensusData(ctx *testframework.TestFrameworkContext) bool {
 }
 
 func TestGetNextConsensus(ctx *testframework.TestFrameworkContext) bool {
-
-	signer, err := ctx.GetDefaultAccount()
-	if err != nil {
-		ctx.LogError("TestDomainSmartContract GetDefaultAccount error:%s", err)
-		return false
-	}
-
-	//InvokeContract
-	txHash, err := ctx.Ont.NeoVM.InvokeNeoVMContract(ctx.GetGasPrice(), ctx.GetGasLimit(),
-		signer,
-		codeAddress,
-		[]interface{}{"getNextConsensus", []interface{}{[]byte("getNextConsensus")}})
+	//PreExecInvokeContract
+	txHash, err := ctx.Ont.NeoVM.PreExecInvokeNeoVMContract(codeAddress, []interface{}{"getNextConsensus", []interface{}{"getNextConsensus"}})
 	if err != nil {
 		ctx.LogError("TestDomainSmartContract InvokeNeoVMSmartContract error: %s", err)
 		return false
 	}
 
-	//WaitForGenerateBlock
-	_, err = ctx.Ont.WaitForGenerateBlock(30*time.Second, 1)
+	//GetResult
+	result, err := txHash.Result.ToByteArray()
 	if err != nil {
-		ctx.LogError("TestInvokeSmartContract WaitForGenerateBlock error:%s", err)
+		ctx.LogError("TestDomainSmartContract GetResult error: %s", err)
 		return false
 	}
 
-	//GetEventOfContract
-	events, err := ctx.Ont.GetSmartContractEvent(txHash.ToHexString())
-	if err != nil {
-		ctx.LogError("TestInvokeSmartContract GetSmartContractEvent error:%s", err)
-		return false
-	}
-	if events.State == 0 {
-		ctx.LogError("TestInvokeSmartContract failed invoked exec state return 0")
-		return false
-	}
-
-	Hash := events.Notify[0].States.(string)
-	count := strings.Count(Hash, "") - 1
+	NextConsensus := hex.EncodeToString(result)
+	count := strings.Count(NextConsensus, "") - 1
 	s := []string{}
 	for i := count; i > 0; i -= 2 {
-		s = append(s, Hash[i-2:i])
+		s = append(s, NextConsensus[i-2:i])
+	}
+	NextConsensus = strings.Join(s, "")
+
+	//PreExecInvokeContract
+	txHash, err = ctx.Ont.NeoVM.PreExecInvokeNeoVMContract(codeAddress, []interface{}{"getCurrentBlockHash", []interface{}{"getCurrentBlockHash"}})
+	if err != nil {
+		ctx.LogError("TestDomainSmartContract InvokeNeoVMSmartContract error: %s", err)
+		return false
+	}
+
+	//GetResult
+	Hash, err := txHash.Result.ToByteArray()
+	if err != nil {
+		ctx.LogError("TestDomainSmartContract GetResult error: %s", err)
+		return false
+	}
+
+	count = strings.Count(hex.EncodeToString(Hash), "") - 1
+	s = []string{}
+	for i := count; i > 0; i -= 2 {
+		s = append(s, hex.EncodeToString(Hash)[i-2:i])
 	}
 	Hash1 := strings.Join(s, "")
+
 	block, err := ctx.Ont.GetBlockByHash(Hash1)
 	if err != nil {
 		ctx.LogError("GetBlockByHash error:%s", err)
@@ -316,15 +290,7 @@ func TestGetNextConsensus(ctx *testframework.TestFrameworkContext) bool {
 	}
 	nc := block.Header.NextBookkeeper.ToHexString()
 
-	NextConsensus := events.Notify[1].States.(string)
-	count = strings.Count(NextConsensus, "") - 1
-	s = []string{}
-	for i := count; i > 0; i -= 2 {
-		s = append(s, NextConsensus[i-2:i])
-	}
-	NextConsensus1 := strings.Join(s, "")
-
-	if nc != NextConsensus1 {
+	if nc != NextConsensus {
 		ctx.LogError("TestGetMerkleRoot error")
 		return false
 	}
